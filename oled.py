@@ -69,7 +69,7 @@ def main():
         sim.fields.step()
 
     sim.print_times()
-    sim.output_times('oled_timing_statistics.csv')
+    sim.output_times('oled_timing_statistics_{0:03d}.csv'.format(mp.count_processors()))
 
 if __name__ == '__main__':
     main()
