@@ -1,0 +1,64 @@
+Using MPI version 3.1, 28 processes
+-----------
+Initializing structure...
+Splitting into 28 chunks evenly
+time for choose_chunkdivision = 0.0206063 s
+Working in 3D dimensions.
+Computational cell is 11 x 11 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+time for set_epsilon = 1.35305 s
+time for set_conductivity = 0.127338 s
+time for set_conductivity = 0.129223 s
+time for set_conductivity = 0.130919 s
+time for set_conductivity = 0.130809 s
+time for set_conductivity = 0.130903 s
+time for set_conductivity = 0.1308 s
+lorentzian susceptibility: frequency=2.80116, gamma=2.72777
+lorentzian susceptibility: frequency=1.45825, gamma=1.08966
+lorentzian susceptibility: frequency=1.24532, gamma=0.251645
+lorentzian susceptibility: frequency=0.130662, gamma=0.268583
+drude susceptibility: frequency=1e-10, gamma=0.0379081
+-----------
+on time step 1 (time=0.00909091), 66.7457 s/step
+on time step 12 (time=0.109091), 0.365613 s/step
+on time step 23 (time=0.209091), 0.36491 s/step
+on time step 34 (time=0.309091), 0.364781 s/step
+on time step 45 (time=0.409091), 0.364829 s/step
+on time step 56 (time=0.509091), 0.36464 s/step
+on time step 67 (time=0.609091), 0.36459 s/step
+on time step 78 (time=0.709091), 0.364585 s/step
+on time step 89 (time=0.809091), 0.364528 s/step
+on time step 100 (time=0.909091), 0.36457 s/step
+
+Field time usage:
+            time stepping: 30.8677 s +/- 0.905921 s
+            communicating: 5.60564 s +/- 0.905452 s
+     Fourier transforming: 0.00025825 s +/- 0.000120665 s
+          everything else: 0.0046709 s +/- 0.000505811 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 31.5457, 31.1869, 31.5155, 31.2425, 31.7777, 29.6533, 30.0092, 31.2299, 29.8111, 29.804, 31.3061, 31.883, 29.74, 31.5546, 31.6683, 29.9998, 29.8872, 31.7209, 31.5089, 29.6629, 31.468, 29.4655, 29.9454, 31.8997, 29.7003, 31.6719, 31.7755, 31.661
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 4.92741, 5.28779, 4.9589, 5.23156, 4.6961, 6.81963, 6.46281, 5.2437, 6.66203, 6.66863, 5.16779, 4.59091, 6.73281, 4.91883, 4.80591, 6.47306, 6.58539, 4.75242, 4.96444, 6.81004, 5.00602, 7.00776, 6.52667, 4.57362, 6.77186, 4.80211, 4.69781, 4.81199
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 0.000113697, 7.65589e-05, 9.21718e-05, 0.000120414, 9.91023e-05, 0.000158793, 0.000178653, 0.000151221, 0.000218439, 0.0002338, 0.000165945, 0.000181936, 0.000300842, 0.000244415, 0.000201907, 0.000303427, 0.00034678, 0.000255882, 0.00026573, 0.000420534, 0.000263309, 0.000348971, 0.000461652, 0.000381941, 0.00053377, 0.000327952, 0.000377721, 0.000405444
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.00556608, 0.00400742, 0.00413552, 0.00402648, 0.00407515, 0.00524778, 0.00548496, 0.00454838, 0.00457672, 0.00529394, 0.00396627, 0.00447434, 0.00503386, 0.00459352, 0.00393328, 0.00468943, 0.0048202, 0.00466548, 0.0049332, 0.00479683, 0.00398801, 0.00465868, 0.00518166, 0.00450096, 0.00541896, 0.0042488, 0.00463028, 0.00528892
+
+outputting timing statistics to file "oled_timing_statistics_028.csv"...
+
+Elapsed run time = 109.1957 s

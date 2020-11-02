@@ -1,0 +1,64 @@
+Using MPI version 3.1, 16 processes
+-----------
+Initializing structure...
+Splitting into 16 chunks evenly
+time for choose_chunkdivision = 0.0107995 s
+Working in 3D dimensions.
+Computational cell is 11 x 11 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+time for set_epsilon = 2.33653 s
+time for set_conductivity = 0.216492 s
+time for set_conductivity = 0.219398 s
+time for set_conductivity = 0.222103 s
+time for set_conductivity = 0.221902 s
+time for set_conductivity = 0.221724 s
+time for set_conductivity = 0.2219 s
+lorentzian susceptibility: frequency=2.80116, gamma=2.72777
+lorentzian susceptibility: frequency=1.45825, gamma=1.08966
+lorentzian susceptibility: frequency=1.24532, gamma=0.251645
+lorentzian susceptibility: frequency=0.130662, gamma=0.268583
+drude susceptibility: frequency=1e-10, gamma=0.0379081
+-----------
+on time step 1 (time=0.00909091), 41.7834 s/step
+on time step 11 (time=0.1), 0.415774 s/step
+on time step 21 (time=0.190909), 0.414806 s/step
+on time step 31 (time=0.281818), 0.41482 s/step
+on time step 41 (time=0.372727), 0.41473 s/step
+on time step 51 (time=0.463636), 0.41463 s/step
+on time step 61 (time=0.554545), 0.414722 s/step
+on time step 71 (time=0.645455), 0.414728 s/step
+on time step 81 (time=0.736364), 0.414638 s/step
+on time step 91 (time=0.827273), 0.414666 s/step
+
+Field time usage:
+            time stepping: 35.519 s +/- 1.10989 s
+            communicating: 5.9602 s +/- 1.10971 s
+     Fourier transforming: 9.02892e-05 s +/- 2.89216e-05 s
+          everything else: 0.00332336 s +/- 0.000456853 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 36.1092, 35.8888, 35.9788, 33.7495, 36.187, 33.5511, 36.4089, 36.2535, 35.6282, 33.6581, 36.4945, 35.9507, 33.8548, 35.8947, 36.1218, 36.5741
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 5.36954, 5.59035, 5.50043, 7.7298, 5.29247, 7.9275, 5.06959, 5.22624, 5.85075, 7.82114, 4.98525, 5.52852, 7.62359, 5.58511, 5.35723, 4.90566
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 6.34273e-05, 4.26674e-05, 5.4792e-05, 6.07702e-05, 5.68165e-05, 9.64312e-05, 7.39649e-05, 7.8327e-05, 0.000102859, 0.000112994, 9.68967e-05, 0.000108442, 0.000136397, 0.000118716, 0.000125285, 0.000115842
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.0039678, 0.00339392, 0.00319448, 0.0029349, 0.00325613, 0.00344863, 0.00443127, 0.00295509, 0.00347908, 0.00297594, 0.00293158, 0.00324813, 0.00392085, 0.00287425, 0.00338014, 0.0027815
+
+outputting timing statistics to file "oled_timing_statistics_016.csv"...
+
+Elapsed run time = 93.4471 s

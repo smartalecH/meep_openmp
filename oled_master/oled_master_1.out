@@ -1,0 +1,156 @@
+Using MPI version 3.1, 1 processes
+-----------
+Initializing structure...
+time for choose_chunkdivision = 6.38149e-05 s
+Working in 3D dimensions.
+Computational cell is 11 x 11 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+subpixel-averaging is 56.1238% done, 3.12722 s remaining
+subpixel-averaging is 55.6336% done, 3.1901 s remaining
+subpixel-averaging is 55.1035% done, 3.25908 s remaining
+time for set_epsilon = 36.3624 s
+time for set_conductivity = 3.38256 s
+time for set_conductivity = 3.38773 s
+time for set_conductivity = 3.37739 s
+time for set_conductivity = 3.37636 s
+time for set_conductivity = 3.37666 s
+time for set_conductivity = 3.38152 s
+lorentzian susceptibility: frequency=2.80116, gamma=2.72777
+lorentzian susceptibility: frequency=1.45825, gamma=1.08966
+lorentzian susceptibility: frequency=1.24532, gamma=0.251645
+lorentzian susceptibility: frequency=0.130662, gamma=0.268583
+drude susceptibility: frequency=1e-10, gamma=0.0379081
+-----------
+on time step 1 (time=0.00909091), 43.6993 s/step
+on time step 2 (time=0.0181818), 5.35949 s/step
+on time step 3 (time=0.0272727), 5.34893 s/step
+on time step 4 (time=0.0363636), 5.3469 s/step
+on time step 5 (time=0.0454545), 5.34472 s/step
+on time step 6 (time=0.0545455), 5.34491 s/step
+on time step 7 (time=0.0636364), 5.34668 s/step
+on time step 8 (time=0.0727273), 5.34816 s/step
+on time step 9 (time=0.0818182), 5.34997 s/step
+on time step 10 (time=0.0909091), 5.34788 s/step
+on time step 11 (time=0.1), 5.34636 s/step
+on time step 12 (time=0.109091), 5.34631 s/step
+on time step 13 (time=0.118182), 5.34635 s/step
+on time step 14 (time=0.127273), 5.34644 s/step
+on time step 15 (time=0.136364), 5.34564 s/step
+on time step 16 (time=0.145455), 5.34422 s/step
+on time step 17 (time=0.154545), 5.34807 s/step
+on time step 18 (time=0.163636), 5.34192 s/step
+on time step 19 (time=0.172727), 5.34756 s/step
+on time step 20 (time=0.181818), 5.34655 s/step
+on time step 21 (time=0.190909), 5.3472 s/step
+on time step 22 (time=0.2), 5.34536 s/step
+on time step 23 (time=0.209091), 5.34873 s/step
+on time step 24 (time=0.218182), 5.34596 s/step
+on time step 25 (time=0.227273), 5.34372 s/step
+on time step 26 (time=0.236364), 5.34562 s/step
+on time step 27 (time=0.245455), 5.34623 s/step
+on time step 28 (time=0.254545), 5.34464 s/step
+on time step 29 (time=0.263636), 5.34457 s/step
+on time step 30 (time=0.272727), 5.34622 s/step
+on time step 31 (time=0.281818), 5.34524 s/step
+on time step 32 (time=0.290909), 5.34614 s/step
+on time step 33 (time=0.3), 5.349 s/step
+on time step 34 (time=0.309091), 5.34561 s/step
+on time step 35 (time=0.318182), 5.34578 s/step
+on time step 36 (time=0.327273), 5.34784 s/step
+on time step 37 (time=0.336364), 5.34379 s/step
+on time step 38 (time=0.345455), 5.34423 s/step
+on time step 39 (time=0.354545), 5.3443 s/step
+on time step 40 (time=0.363636), 5.34742 s/step
+on time step 41 (time=0.372727), 5.34819 s/step
+on time step 42 (time=0.381818), 5.34656 s/step
+on time step 43 (time=0.390909), 5.34851 s/step
+on time step 44 (time=0.4), 5.35031 s/step
+on time step 45 (time=0.409091), 5.34668 s/step
+on time step 46 (time=0.418182), 5.34543 s/step
+on time step 47 (time=0.427273), 5.34801 s/step
+on time step 48 (time=0.436364), 5.34841 s/step
+on time step 49 (time=0.445455), 5.34615 s/step
+on time step 50 (time=0.454545), 5.34701 s/step
+on time step 51 (time=0.463636), 5.3472 s/step
+on time step 52 (time=0.472727), 5.34687 s/step
+on time step 53 (time=0.481818), 5.35081 s/step
+on time step 54 (time=0.490909), 5.34376 s/step
+on time step 55 (time=0.5), 5.34792 s/step
+on time step 56 (time=0.509091), 5.34608 s/step
+on time step 57 (time=0.518182), 5.34839 s/step
+on time step 58 (time=0.527273), 5.34791 s/step
+on time step 59 (time=0.536364), 5.34731 s/step
+on time step 60 (time=0.545455), 5.34953 s/step
+on time step 61 (time=0.554545), 5.34654 s/step
+on time step 62 (time=0.563636), 5.34851 s/step
+on time step 63 (time=0.572727), 5.34741 s/step
+on time step 64 (time=0.581818), 5.3435 s/step
+on time step 65 (time=0.590909), 5.34382 s/step
+on time step 66 (time=0.6), 5.3434 s/step
+on time step 67 (time=0.609091), 5.34403 s/step
+on time step 68 (time=0.618182), 5.34662 s/step
+on time step 69 (time=0.627273), 5.34461 s/step
+on time step 70 (time=0.636364), 5.34555 s/step
+on time step 71 (time=0.645455), 5.34592 s/step
+on time step 72 (time=0.654545), 5.34539 s/step
+on time step 73 (time=0.663636), 5.34691 s/step
+on time step 74 (time=0.672727), 5.34521 s/step
+on time step 75 (time=0.681818), 5.34504 s/step
+on time step 76 (time=0.690909), 5.34726 s/step
+on time step 77 (time=0.7), 5.34565 s/step
+on time step 78 (time=0.709091), 5.344 s/step
+on time step 79 (time=0.718182), 5.34395 s/step
+on time step 80 (time=0.727273), 5.34386 s/step
+on time step 81 (time=0.736364), 5.34928 s/step
+on time step 82 (time=0.745455), 5.34595 s/step
+on time step 83 (time=0.754545), 5.34808 s/step
+on time step 84 (time=0.763636), 5.35123 s/step
+on time step 85 (time=0.772727), 5.34562 s/step
+on time step 86 (time=0.781818), 5.34578 s/step
+on time step 87 (time=0.790909), 5.345 s/step
+on time step 88 (time=0.8), 5.34701 s/step
+on time step 89 (time=0.809091), 5.34436 s/step
+on time step 90 (time=0.818182), 5.34752 s/step
+on time step 91 (time=0.827273), 5.34727 s/step
+on time step 92 (time=0.836364), 5.34485 s/step
+on time step 93 (time=0.845455), 5.34732 s/step
+on time step 94 (time=0.854545), 5.34713 s/step
+on time step 95 (time=0.863636), 5.34568 s/step
+on time step 96 (time=0.872727), 5.34493 s/step
+on time step 97 (time=0.881818), 5.34411 s/step
+on time step 98 (time=0.890909), 5.34343 s/step
+on time step 99 (time=0.9), 5.34462 s/step
+on time step 100 (time=0.909091), 5.34599 s/step
+
+Field time usage:
+            time stepping: 478.602 s
+            communicating: 56.0414 s
+     Fourier transforming: 5.56209e-05 s
+          everything else: 0.00342816 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 478.602
+          copying borders: 0
+            communicating: 56.0414
+        outputting fields: 0
+     Fourier transforming: 5.56209e-05
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.00342816
+
+outputting timing statistics to file "oled_timing_statistics_001.csv"...
+
+Elapsed run time = 732.8669 s
