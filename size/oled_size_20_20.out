@@ -1,0 +1,96 @@
+-----------
+Initializing structure...
+time for choose_chunkdivision = 8.10623e-05 s
+Working in 3D dimensions.
+Computational cell is 21 x 21 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+subpixel-averaging is 31.6886% done, 8.63723 s remaining
+subpixel-averaging is 63.3922% done, 2.31039 s remaining
+subpixel-averaging is 31.6812% done, 8.62619 s remaining
+subpixel-averaging is 63.4147% done, 2.31033 s remaining
+subpixel-averaging is 12.6655% done, 27.5874 s remaining
+subpixel-averaging is 25.3599% done, 11.7927 s remaining
+subpixel-averaging is 38.0473% done, 6.52237 s remaining
+subpixel-averaging is 50.7278% done, 3.88932 s remaining
+subpixel-averaging is 63.4012% done, 2.30926 s remaining
+subpixel-averaging is 76.0787% done, 1.25817 s remaining
+subpixel-averaging is 88.7601% done, 0.506725 s remaining
+subpixel-averaging is 34.0184% done, 7.77962 s remaining
+subpixel-averaging is 67.9844% done, 1.88555 s remaining
+subpixel-averaging is 31.771% done, 8.59641 s remaining
+subpixel-averaging is 63.5644% done, 2.29606 s remaining
+subpixel-averaging is 13.5714% done, 25.5084 s remaining
+subpixel-averaging is 27.1668% done, 10.7437 s remaining
+subpixel-averaging is 40.7572% done, 5.81525 s remaining
+subpixel-averaging is 54.3356% done, 3.36489 s remaining
+subpixel-averaging is 67.941% done, 1.89532 s remaining
+subpixel-averaging is 81.5204% done, 0.907483 s remaining
+subpixel-averaging is 37.1039% done, 6.78621 s remaining
+subpixel-averaging is 74.2952% done, 1.38481 s remaining
+subpixel-averaging is 31.544% done, 8.70068 s remaining
+subpixel-averaging is 63.0829% done, 2.34648 s remaining
+subpixel-averaging is 97.1886% done, 0.116033 s remaining
+subpixel-averaging is 14.9414% done, 22.7966 s remaining
+subpixel-averaging is 29.9326% done, 9.38942 s remaining
+subpixel-averaging is 44.8939% done, 4.91355 s remaining
+subpixel-averaging is 59.8702% done, 2.68521 s remaining
+subpixel-averaging is 74.8385% done, 1.34634 s remaining
+subpixel-averaging is 89.8347% done, 0.453701 s remaining
+time for set_epsilon = 157.244 s
+time for set_conductivity = 12.9515 s
+time for set_conductivity = 12.9565 s
+time for set_conductivity = 12.9381 s
+time for set_conductivity = 12.9671 s
+time for set_conductivity = 12.9607 s
+time for set_conductivity = 12.9306 s
+lorentzian susceptibility: frequency=2.80116, gamma=2.72777
+lorentzian susceptibility: frequency=1.45825, gamma=1.08966
+lorentzian susceptibility: frequency=1.24532, gamma=0.251645
+lorentzian susceptibility: frequency=0.130662, gamma=0.268583
+drude susceptibility: frequency=1e-10, gamma=0.0379081
+-----------
+Memory usage:  67426959912
+Number of pixels:  176091301
+on time step 1 (time=0.00909091), 194.929 s/step
+on time step 2 (time=0.0181818), 9.8512 s/step
+on time step 3 (time=0.0272727), 9.54871 s/step
+on time step 4 (time=0.0363636), 9.54308 s/step
+on time step 5 (time=0.0454545), 9.5441 s/step
+on time step 6 (time=0.0545455), 9.54388 s/step
+on time step 7 (time=0.0636364), 9.54621 s/step
+on time step 8 (time=0.0727273), 9.54428 s/step
+on time step 9 (time=0.0818182), 9.54271 s/step
+on time step 10 (time=0.0909091), 9.54374 s/step
+
+Field time usage:
+            time stepping: 74.9356 s
+            communicating: 20.8148 s
+     Fourier transforming: 7.86781e-06 s
+          everything else: 0.000451803 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 74.9356
+          copying borders: 0
+            communicating: 20.8148
+        outputting fields: 0
+     Fourier transforming: 7.86781e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000451803
+
+outputting timing statistics to file "oled_timing_statistics_1_20_20.csv"...
+
+Elapsed run time = 889.8967 s

@@ -1,8 +1,17 @@
 import meep as mp
 from meep.materials import Al
 import numpy as np
+import os
+import argparse
+
+OMP_NUM_THREADS = os.getenv('OMP_NUM_THREADS')
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--L', type=float, default=10.0, help='design size')
+    parser.add_argument('--fprefix',type=str, default="")
+    args = parser.parse_args()
+
     lambda_min = 0.4         # minimum source wavelength
     lambda_max = 0.8         # maximum source wavelength
     fmin = 1/lambda_max      # minimum source frequency
@@ -11,7 +20,7 @@ def main():
     df = fmax-fmin           # source frequency width
 
     resolution = 55
-    L = 10                   # length of OLED        
+    L = args.L               # length of OLED        
     nfreq = 100              # number of frequency bins
     tABS = 0.5               # absorber thickness
     tPML = 0.5               # PML thickness
@@ -62,14 +71,19 @@ def main():
 
     mp.verbosity(2)
     sim.init_sim()
+    mem = sim.get_estimated_memory_usage()
+    npixels = sim.fragment_stats.num_pixels_in_box
+    print("Memory usage: ",mem)
+    print("Number of pixels: ",npixels)
+    
     sim.fields.step()
     sim.fields.reset_timers()
 
-    for _ in range(100):
+    for _ in range(10):
         sim.fields.step()
 
     sim.print_times()
-    sim.output_times('oled_timing_statistics_{0:03d}.csv'.format(mp.count_processors()))
+    sim.output_times('{}oled_timing_statistics_{}_{}_{}.csv'.format(args.fprefix,mp.count_processors(),OMP_NUM_THREADS,int(L)))
 
 if __name__ == '__main__':
     main()

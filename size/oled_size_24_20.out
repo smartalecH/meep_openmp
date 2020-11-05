@@ -1,0 +1,93 @@
+-----------
+Initializing structure...
+time for choose_chunkdivision = 7.58171e-05 s
+Working in 3D dimensions.
+Computational cell is 21 x 21 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+subpixel-averaging is 32.6465% done, 8.25855 s remaining
+subpixel-averaging is 65.3503% done, 2.12136 s remaining
+subpixel-averaging is 32.9059% done, 8.15763 s remaining
+subpixel-averaging is 65.8268% done, 2.07715 s remaining
+subpixel-averaging is 13.0536% done, 26.6436 s remaining
+subpixel-averaging is 26.1202% done, 11.3183 s remaining
+subpixel-averaging is 39.2177% done, 6.21386 s remaining
+subpixel-averaging is 52.2813% done, 3.65207 s remaining
+subpixel-averaging is 65.3508% done, 2.12141 s remaining
+subpixel-averaging is 78.4094% done, 1.10149 s remaining
+subpixel-averaging is 34.4948% done, 7.59604 s remaining
+subpixel-averaging is 69.2565% done, 1.78474 s remaining
+subpixel-averaging is 32.9034% done, 8.17031 s remaining
+subpixel-averaging is 65.7569% done, 2.08406 s remaining
+subpixel-averaging is 13.9007% done, 24.7903 s remaining
+subpixel-averaging is 27.8962% done, 10.3935 s remaining
+subpixel-averaging is 41.8557% done, 5.56766 s remaining
+subpixel-averaging is 55.8023% done, 3.17315 s remaining
+subpixel-averaging is 69.7439% done, 1.73681 s remaining
+subpixel-averaging is 83.6806% done, 0.780554 s remaining
+subpixel-averaging is 38.3836% done, 6.42885 s remaining
+subpixel-averaging is 76.9742% done, 1.19658 s remaining
+subpixel-averaging is 32.7762% done, 8.21288 s remaining
+subpixel-averaging is 65.6846% done, 2.09955 s remaining
+subpixel-averaging is 15.4143% done, 21.9529 s remaining
+subpixel-averaging is 30.8545% done, 8.96843 s remaining
+subpixel-averaging is 46.3546% done, 4.6409 s remaining
+subpixel-averaging is 61.8008% done, 2.4738 s remaining
+subpixel-averaging is 77.264% done, 1.17839 s remaining
+time for set_epsilon = 152.935 s
+time for set_conductivity = 12.9819 s
+time for set_conductivity = 12.9826 s
+time for set_conductivity = 12.9599 s
+time for set_conductivity = 12.9645 s
+time for set_conductivity = 12.9399 s
+time for set_conductivity = 13.0091 s
+lorentzian susceptibility: frequency=2.80116, gamma=2.72777
+lorentzian susceptibility: frequency=1.45825, gamma=1.08966
+lorentzian susceptibility: frequency=1.24532, gamma=0.251645
+lorentzian susceptibility: frequency=0.130662, gamma=0.268583
+drude susceptibility: frequency=1e-10, gamma=0.0379081
+-----------
+Memory usage:  67426959912
+Number of pixels:  176091301
+on time step 1 (time=0.00909091), 197.965 s/step
+on time step 2 (time=0.0181818), 9.02468 s/step
+on time step 3 (time=0.0272727), 8.96254 s/step
+on time step 4 (time=0.0363636), 8.96223 s/step
+on time step 5 (time=0.0454545), 8.96261 s/step
+on time step 6 (time=0.0545455), 8.96285 s/step
+on time step 7 (time=0.0636364), 8.96183 s/step
+on time step 8 (time=0.0727273), 8.96269 s/step
+on time step 9 (time=0.0818182), 8.96205 s/step
+on time step 10 (time=0.0909091), 8.96283 s/step
+
+Field time usage:
+            time stepping: 69.9654 s
+            communicating: 19.7206 s
+     Fourier transforming: 7.15256e-06 s
+          everything else: 0.000351667 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 69.9654
+          copying borders: 0
+            communicating: 19.7206
+        outputting fields: 0
+     Fourier transforming: 7.15256e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000351667
+
+outputting timing statistics to file "oled_timing_statistics_1_24_20.csv"...
+
+Elapsed run time = 882.5496 s
