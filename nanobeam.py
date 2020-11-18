@@ -3,6 +3,7 @@ from meep.materials import Al
 import numpy as np
 import os
 import argparse
+from meep.materials import Si
 
 OMP_NUM_THREADS = os.getenv('OMP_NUM_THREADS')
 
@@ -96,11 +97,12 @@ def main(args):
         sim.fields.step()
 
     sim.print_times()
-    sim.output_times('{}nanobeam_timing_statistics_{}_{}.csv'.format(args.fprefix,mp.count_processors(),OMP_NUM_THREADS)
+    sim.output_times('{}nanobeam_timing_statistics_{}_{}.csv'.format(args.fprefix,mp.count_processors(),OMP_NUM_THREADS))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-res', type=int, default=50, help='resolution (default: 50 pixels/um)')
+    parser.add_argument('-res', type=int, default=120, help='resolution (default: 50 pixels/um)')
     parser.add_argument('-a_start', type=float, default=0.43, help='starting periodicity (default: 0.43 um)')
     parser.add_argument('-a_end', type=float, default=0.33, help='ending periodicity (default: 0.33 um)')
     parser.add_argument('-s_cav', type=float, default=0.146, help='cavity length (default: 0.146 um)')
@@ -109,7 +111,7 @@ if __name__ == '__main__':
     parser.add_argument('-ww', type=float, default=0.50, help='waveguide width (default: 0.50 um)')
     parser.add_argument('-dabs', type=float, default=1.00, help='absorber thickness (default: 1.00 um)')
     parser.add_argument('-Ndef', type=int, default=3, help='number of defect periods (default: 3)')
-    parser.add_argument('-Nwvg', type=int, default=8, help='number of waveguide periods (default: 8)')
+    parser.add_argument('-Nwvg', type=int, default=20, help='number of waveguide periods (default: 8)')
     parser.add_argument('-f', '--fprefix', default='', help="File name for output file. Should end in .csv")
     args = parser.parse_args()
     main(args)
