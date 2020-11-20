@@ -83,7 +83,7 @@ def main():
         sim.fields.step()
 
     sim.print_times()
-    sim.output_times('{}oled_timing_statistics_{}_{}_{}.csv'.format(args.fprefix,mp.count_processors(),OMP_NUM_THREADS,int(L)))
+    sim.output_times('{}oled_timing_statistics_{}_{}.csv'.format(args.fprefix,mp.count_processors(),OMP_NUM_THREADS))
 
 if __name__ == '__main__':
     main()

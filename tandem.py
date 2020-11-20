@@ -43,11 +43,7 @@ def main(args):
                        mp.Absorber(thickness=dabs,direction=mp.Z,side=mp.Low)]
 
     def rod_top(cx,cy):
-        if mp.am_master():
-            dpos = dfrac*a*np.random.rand()
-        else:
-            dpos = None
-        dpos = mp.comm.bcast(dpos, root=0)
+        dfrac*a*np.random.rand()
         return mp.Cylinder(height=ht,
                            radius=rt,
                            material=mp.air,
