@@ -1,13 +1,18 @@
 import meep as mp
-from meep.materials import Al
 import numpy as np
 import os
 import argparse
-from meep.materials import Si
 
 OMP_NUM_THREADS = os.getenv('OMP_NUM_THREADS')
 
 def main(args):
+    if args.dispersion:
+        from meep.materials import Al
+        from meep.materials import Si
+    else:
+        Al = mp.Medium(index=3)
+        Si = mp.Medium(index=4)
+    
     resolution = args.res         # pixels/um
 
     a_start = args.a_start        # starting periodicity
@@ -112,6 +117,7 @@ if __name__ == "__main__":
     parser.add_argument('-dabs', type=float, default=1.00, help='absorber thickness (default: 1.00 um)')
     parser.add_argument('-Ndef', type=int, default=3, help='number of defect periods (default: 3)')
     parser.add_argument('-Nwvg', type=int, default=20, help='number of waveguide periods (default: 8)')
+    parser.add_argument('--dispersion', action='store_true', default=False, help='use dispersive materials? (default: False)')
     parser.add_argument('-f', '--fprefix', default='', help="File name for output file. Should end in .csv")
     args = parser.parse_args()
     main(args)

@@ -1,5 +1,4 @@
 import meep as mp
-from meep.materials import Al
 import numpy as np
 import os
 import argparse
@@ -10,6 +9,10 @@ np.random.seed(0)
 OMP_NUM_THREADS = os.getenv('OMP_NUM_THREADS')
 
 def main(args):
+    if args.dispersion:
+        from meep.materials import SiO2_aniso
+    else:
+        SiO2_aniso = mp.Medium(index=1.4)
     dpml = 1.0             # PML thickness
     dsub = 1.0             # substrate thickness
     dpad = 1.0             # padding thickness
@@ -57,7 +60,7 @@ def main(args):
 
     geometry = [mp.Block(center=mp.Vector3(-0.5*sx+0.5*(dpml+dsub)),
                          size=mp.Vector3(dpml+dsub,mp.inf,mp.inf),
-                         material=mp.Medium(index=n_0)),
+                         material=SiO2_aniso),
                 mp.Block(center=mp.Vector3(-0.5*sx+dpml+dsub+args.dcry),
                          size=mp.Vector3(2*args.dcry,mp.inf,mp.inf),
                          material=lc_mat(mp.Vector3()))]
@@ -110,6 +113,7 @@ if __name__ == "__main__":
     parser.add_argument('-res', type=int, default=50, help='resolution (default: 50 pixels/um)')
     parser.add_argument('-dcry', type=float, default=5.0, help='liquid crystal thickness (default: 5.0)')
     parser.add_argument('-nfreq', type=int, default=21, help='number of frequency bins (default: 21)')
+    parser.add_argument('--dispersion', action='store_true', default=False, help='use dispersive materials? (default: False)')
     parser.add_argument('-f', '--fprefix', default='', help="File name for output file. Should end in .csv")
     args = parser.parse_args()
     main(args)

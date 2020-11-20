@@ -1,15 +1,18 @@
 import meep as mp
-from meep.materials import Al
 import numpy as np
 import os
 import argparse
-from meep.materials import cSi
 import math
 np.random.seed(0)
 
 OMP_NUM_THREADS = os.getenv('OMP_NUM_THREADS')
 
 def main(args):
+    if args.dispersion:
+        from meep.materials import cSi
+    else:
+        cSi = mp.Medium(index=3)
+    
     wvl_min = 0.4
     wvl_max = 1.0
     fmin = 1/wvl_max
@@ -43,18 +46,14 @@ def main(args):
                        mp.Absorber(thickness=dabs,direction=mp.Z,side=mp.Low)]
 
     def rod_top(cx,cy):
-        dfrac*a*np.random.rand()
+        dpos = dfrac*a*0.2
         return mp.Cylinder(height=ht,
                            radius=rt,
                            material=mp.air,
                            center=mp.Vector3(cx+dpos,cy+dpos,0.5*sz-dpml-tair_top-0.5*ht))
 
     def rod_bot(cx,cy):
-        if mp.am_master():
-            dpos = dfrac*a*np.random.rand()
-        else:
-            dpos = None
-        dpos = mp.comm.bcast(dpos, root=0)
+        dpos = dfrac*a*0.2
         return mp.Cylinder(height=hb,
                            radius=rb,
                            material=mp.air,
@@ -138,6 +137,7 @@ if __name__ == "__main__":
     parser.add_argument('-dabs', type=float, default=1.00, help='absorber thickness (default: 1.00 um)')
     parser.add_argument('-Ndef', type=int, default=3, help='number of defect periods (default: 3)')
     parser.add_argument('-Nwvg', type=int, default=20, help='number of waveguide periods (default: 8)')
+    parser.add_argument('--dispersion', action='store_true', default=False, help='use dispersive materials? (default: False)')
     parser.add_argument('-f', '--fprefix', default='', help="File name for output file. Should end in .csv")
     args = parser.parse_args()
     main(args)

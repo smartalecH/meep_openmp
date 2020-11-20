@@ -1,14 +1,18 @@
 import meep as mp
-from meep.materials import Al
 import numpy as np
 import os
 import argparse
-from meep.materials import Si, SiO2_aniso
 import math
 
 OMP_NUM_THREADS = os.getenv('OMP_NUM_THREADS')
 
 def main(args):
+    if args.dispersion:
+        from meep.materials import Si, SiO2_aniso
+    else:
+        Si = mp.Medium(index=3)
+        SiO2_aniso = mp.Medium(index=1.4)
+    
     h = args.hh
     w = args.w
     a = args.a
@@ -144,6 +148,7 @@ if __name__ == '__main__':
     parser.add_argument('-rot_theta', type=float, default=20, help='rotation angle of sides relative to Y axis (default: 20 degrees)')
     parser.add_argument('-res', type=int, default=50, help='resolution (default: 30 pixels/um)')
     parser.add_argument('-nfreq', type=int, default=50, help='number of frequency bins (default: 50)')
+    parser.add_argument('--dispersion', action='store_true', default=False, help='use dispersive materials? (default: False)')
     parser.add_argument('-f', '--fprefix', default='', help="File name for output file. Should end in .csv")
     args = parser.parse_args()
     main(args)
