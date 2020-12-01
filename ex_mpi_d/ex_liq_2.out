@@ -1,0 +1,54 @@
+Using MPI version 3.1, 2 processes
+-----------
+Initializing structure...
+Splitting into 2 chunks by cost
+time for choose_chunkdivision = 0.000566721 s
+Working in 3D dimensions.
+Computational cell is 14 x 6.5 x 7 with resolution 50
+     block, center = (-6,0,0)
+          size (2,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1.28604,1.28604,1.28852)
+     block, center = (0,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.71284,2.61034)
+subpixel-averaging is 90.6588% done, 0.412167 s remaining
+subpixel-averaging is 89.9658% done, 0.446187 s remaining
+subpixel-averaging is 90.0487% done, 0.442048 s remaining
+time for set_epsilon = 38.8686 s
+lorentzian susceptibility: frequency=9.89653, gamma=0
+lorentzian susceptibility: frequency=0.1, gamma=0
+lorentzian susceptibility: frequency=9.97083, gamma=0
+-----------
+estimated costs per process: 28569.8, 28595.6
+estimated cost mean = 28582.7, stddev = 18.2099
+Memory usage:  8528520000
+Number of pixels:  79625000
+on time step 1 (time=0.01), 54.3191 s/step
+on time step 3 (time=0.03), 2.39584 s/step
+on time step 5 (time=0.05), 2.3932 s/step
+on time step 7 (time=0.07), 2.39401 s/step
+on time step 9 (time=0.09), 2.39309 s/step
+
+Field time usage:
+            time stepping: 16.7761 s +/- 3.05534 s
+            communicating: 7.1628 s +/- 3.05568 s
+     Fourier transforming: 7.15256e-06 s +/- 1.01152e-06 s
+          everything else: 0.000284314 s +/- 3.65835e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0
+            time stepping: 14.6157, 18.9366
+          copying borders: 0, 0
+            communicating: 9.32349, 5.0021
+        outputting fields: 0, 0
+     Fourier transforming: 6.4373e-06, 7.86781e-06
+                      MPB: 0, 0
+        getting farfields: 0, 0
+          everything else: 0.000310183, 0.000258446
+
+outputting timing statistics to file "ex_liq_liq_timing_statistics_2_None.csv"...
+
+Elapsed run time = 174.4063 s

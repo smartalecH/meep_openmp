@@ -1,0 +1,64 @@
+Using MPI version 3.1, 1 processes
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000395298 s
+Working in 3D dimensions.
+Computational cell is 14 x 6.5 x 7 with resolution 50
+     block, center = (-6,0,0)
+          size (2,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1.28604,1.28604,1.28852)
+     block, center = (0,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.71284,2.61034)
+subpixel-averaging is 31.2649% done, 8.79391 s remaining
+subpixel-averaging is 62.4866% done, 2.40151 s remaining
+subpixel-averaging is 93.9633% done, 0.256984 s remaining
+subpixel-averaging is 31.0366% done, 8.88816 s remaining
+subpixel-averaging is 62.0321% done, 2.4483 s remaining
+subpixel-averaging is 93.19% done, 0.292305 s remaining
+subpixel-averaging is 31.051% done, 8.88218 s remaining
+subpixel-averaging is 62.1843% done, 2.43253 s remaining
+subpixel-averaging is 93.4903% done, 0.278533 s remaining
+time for set_epsilon = 62.1783 s
+lorentzian susceptibility: frequency=9.89653, gamma=0
+lorentzian susceptibility: frequency=0.1, gamma=0
+lorentzian susceptibility: frequency=9.97083, gamma=0
+-----------
+estimated costs per process: 57165.4
+estimated cost mean = 57165.4, stddev = 0
+Memory usage:  8528520000
+Number of pixels:  79625000
+on time step 1 (time=0.01), 64.1153 s/step
+on time step 2 (time=0.02), 4.18714 s/step
+on time step 3 (time=0.03), 4.18427 s/step
+on time step 4 (time=0.04), 4.18673 s/step
+on time step 5 (time=0.05), 4.19149 s/step
+on time step 6 (time=0.06), 4.19099 s/step
+on time step 7 (time=0.07), 4.18886 s/step
+on time step 8 (time=0.08), 4.18867 s/step
+on time step 9 (time=0.09), 4.18791 s/step
+on time step 10 (time=0.1), 4.19268 s/step
+
+Field time usage:
+            time stepping: 39.1004 s
+            communicating: 2.78773 s
+     Fourier transforming: 8.10623e-06 s
+          everything else: 0.000300646 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 39.1004
+          copying borders: 0
+            communicating: 2.78773
+        outputting fields: 0
+     Fourier transforming: 8.10623e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000300646
+
+outputting timing statistics to file "ex_liq_liq_timing_statistics_1_None.csv"...
+
+Elapsed run time = 267.4595 s

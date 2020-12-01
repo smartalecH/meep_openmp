@@ -1,0 +1,123 @@
+Using MPI version 3.1, 40 processes
+-----------
+Initializing structure...
+Padding y to even number of grid points.
+Halving computational cell along direction y
+Splitting into 40 chunks by cost
+time for choose_chunkdivision = 0.176397 s
+Working in 3D dimensions.
+Computational cell is 15.1 x 15.1 x 4.32 with resolution 50
+     cylinder, center = (0,0,0)
+          radius 6, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 5.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 4.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 4, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 3.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 3, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 2.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 2, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 1.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 10 objects not shown)...
+time for set_epsilon = 2.0853 s
+lorentzian susceptibility: frequency=9.89653, gamma=0
+lorentzian susceptibility: frequency=0.1, gamma=0
+lorentzian susceptibility: frequency=9.97083, gamma=0
+lorentzian susceptibility: frequency=0.000905797, gamma=0
+lorentzian susceptibility: frequency=0.88125, gamma=0
+lorentzian susceptibility: frequency=3.31657, gamma=0
+-----------
+estimated costs per process: 2131.84, 2163.6, 2150.82, 2162.03, 2160.26, 2181.59, 2171.18, 2172.38, 2122.98, 2149.52, 2157.85, 2168.91, 2150.03, 2171.42, 2152.46, 2169.65, 2151.28, 2155.31, 2153.27, 2181.45, 2141.37, 2167.74, 2165.75, 2194.69, 2138.82, 2167.27, 2147.92, 2172.61, 2160.47, 2195.97, 2167.49, 2196.57, 2154.22, 2154.22, 2148.69, 2190.17, 2180.65, 2180.65, 2174.26, 2201.75
+estimated cost mean = 2164.48, stddev = 17.8491
+KPOINT: 1.5, 0, 0
+    near maximum in trace
+    iteration    1: trace = 3.561074589869018 (189.517% change)
+    iteration    2: trace = 0.5643913450204081 (145.277% change)
+    iteration    3: trace = 0.4363357419344351 (25.5925% change)
+    iteration    4: trace = 0.4191244993908089 (4.02386% change)
+    iteration    5: trace = 0.4155451727485397 (0.857663% change)
+    iteration    6: trace = 0.4146652488310268 (0.211976% change)
+    iteration    7: trace = 0.4145066536675581 (0.0382539% change)
+    iteration    8: trace = 0.4144627711554622 (0.0105872% change)
+    iteration    9: trace = 0.4144543959520266 (0.00202076% change)
+    iteration   10: trace = 0.4144530704853918 (0.000319811% change)
+    iteration   11: trace = 0.4144528828071556 (4.52834e-05% change)
+    iteration   12: trace = 0.4144528475648316 (8.50334e-06% change)
+    iteration   13: trace = 0.4144528415968354 (1.43997e-06% change)
+    iteration   14: trace = 0.4144528409862566 (1.47322e-07% change)
+    iteration   15: trace = 0.4144528409658303 (4.92849e-09% change)
+    iteration   16: trace = 0.4144528409578729 (1.91998e-09% change)
+    iteration   17: trace = 0.4144528409525355 (1.28782e-09% change)
+    iteration   18: trace = 0.4144528409481781 (1.05135e-09% change)
+    iteration   19: trace = 0.4144528409442803 (9.40489e-10% change)
+    iteration   20: trace = 0.4144528409406162 (8.84074e-10% change)
+    iteration   21: trace = 0.4144528409370572 (8.58719e-10% change)
+    iteration   22: trace = 0.4144528409335088 (8.56161e-10% change)
+    iteration   23: trace = 0.4144528409298677 (8.78542e-10% change)
+    iteration   24: trace = 0.4144528409259748 (9.39283e-10% change)
+    iteration   25: trace = 0.4144528409215053 (1.07841e-09% change)
+    iteration   26: trace = 0.4144528409155638 (1.43357e-09% change)
+    iteration   27: trace = 0.4144528409046099 (2.64298e-09% change)
+    iteration   28: trace = 0.4144528409040893 (1.25607e-10% change)
+    iteration   29: trace = 0.4144528409039283 (3.88555e-11% change)
+MPB solved for frequency_1(1.5,0,0) = 0.64378 after 29 iters
+Newton step: group velocity v=0.235137, kmatch=1.50587
+    iteration    1: trace = 0.4162338366656784 (0.000888584% change)
+    iteration    2: trace = 0.4162336949462379 (3.4048e-05% change)
+    iteration    3: trace = 0.4162336655796493 (7.05531e-06% change)
+    iteration    4: trace = 0.4162336585173647 (1.69671e-06% change)
+    iteration    5: trace = 0.4162336577481998 (1.84792e-07% change)
+    iteration    6: trace = 0.4162336575258818 (5.34118e-08% change)
+    iteration    7: trace = 0.416233657465346 (1.45437e-08% change)
+    iteration    8: trace = 0.4162336574556382 (2.33229e-09% change)
+    iteration    9: trace = 0.4162336574539525 (4.05004e-10% change)
+    iteration   10: trace = 0.4162336574536183 (8.02726e-11% change)
+MPB solved for frequency_1(1.50587,0,0) = 0.645162 after 10 iters
+Newton step: group velocity v=0.235287, kmatch=1.50587
+    iteration    1: trace = 0.4162330905316161 (6.18016e-11% change)
+MPB solved for frequency_1(1.50587,0,0) = 0.645161 after 1 iters
+Newton step: group velocity v=0.235286, kmatch=1.50587
+Memory usage:  12920642448
+Number of pixels:  61562700
+on time step 1 (time=0.01), 174.353 s/step
+
+Field time usage:
+            time stepping: 2.53616 s +/- 0.320099 s
+            communicating: 1.04572 s +/- 0.320631 s
+     Fourier transforming: 6.01709e-05 s +/- 2.61381e-05 s
+          everything else: 0.000625962 s +/- 8.00704e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 1.93576, 2.4449, 2.16901, 2.56597, 2.34379, 2.33153, 2.53998, 2.8331, 2.16608, 2.19189, 2.63472, 2.58364, 2.64449, 2.84231, 2.62676, 2.75723, 1.761, 2.51795, 2.5541, 2.77869, 2.83239, 2.8305, 2.82978, 2.85682, 2.24092, 2.88905, 2.23732, 2.90119, 2.22036, 2.01803, 2.62171, 2.50587, 2.73258, 2.72866, 2.85903, 2.96151, 2.07963, 2.07633, 2.81947, 2.98242
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 1.64734, 1.13664, 1.41358, 1.01432, 1.23879, 1.25068, 1.04152, 0.748775, 1.41639, 1.39055, 0.946149, 0.997213, 0.937997, 0.739089, 0.955828, 0.824575, 1.82213, 1.06431, 1.02678, 0.802039, 0.749628, 0.751513, 0.752199, 0.725322, 1.34171, 0.691762, 1.34538, 0.679492, 1.36172, 1.5651, 0.958489, 1.07585, 0.849992, 0.853884, 0.722357, 0.619566, 1.50312, 1.5066, 0.76142, 0.598985
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 1.23978e-05, 1.93119e-05, 2.21729e-05, 4.02927e-05, 2.57492e-05, 3.50475e-05, 3.95775e-05, 3.71933e-05, 3.33786e-05, 3.50475e-05, 5.48363e-05, 5.34058e-05, 4.29153e-05, 5.19753e-05, 4.76837e-05, 4.60148e-05, 3.43323e-05, 5.29289e-05, 5.53131e-05, 7.10487e-05, 5.53131e-05, 5.72205e-05, 6.17504e-05, 7.41482e-05, 6.81877e-05, 8.51154e-05, 5.14984e-05, 8.67844e-05, 8.05855e-05, 7.96318e-05, 0.000113487, 8.29697e-05, 8.01086e-05, 8.65459e-05, 0.000101805, 9.27448e-05, 5.88894e-05, 5.60284e-05, 0.000110149, 0.000113249
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000630856, 0.000624657, 0.000628233, 0.000736237, 0.000634193, 0.00058794, 0.000720024, 0.000627995, 0.000590086, 0.000567198, 0.000848055, 0.000706434, 0.000576496, 0.000679731, 0.000582933, 0.000600338, 0.00048542, 0.000571489, 0.000702143, 0.000752926, 0.000640154, 0.000569105, 0.000662565, 0.000624657, 0.000522614, 0.000699997, 0.000508547, 0.000689745, 0.000560284, 0.000524998, 0.000747681, 0.000674963, 0.000557184, 0.000557661, 0.000628948, 0.000671625, 0.000504255, 0.000520468, 0.000705719, 0.000613928
+
+outputting timing statistics to file "ex_grating_grating_timing_statistics_40_None.csv"...
+
+Elapsed run time = 202.7421 s

@@ -1,0 +1,105 @@
+Using MPI version 3.1, 2 processes
+-----------
+Initializing structure...
+Splitting into 2 chunks by cost
+time for choose_chunkdivision = 0.102218 s
+Working in 3D dimensions.
+Computational cell is 15 x 15 x 6 with resolution 50
+     block, center = (0,0,0.4)
+          size (1e+20,1e+20,0.6)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     block, center = (0,0,-0.4)
+          size (1e+20,1e+20,0.6)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-7.23,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-7.23,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.73,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.73,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.23,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.23,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-5.73,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-5.73,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 1792 objects not shown)...
+subpixel-averaging is 75.3758% done, 1.30678 s remaining
+subpixel-averaging is 17.7866% done, 18.4899 s remaining
+subpixel-averaging is 35.559% done, 7.24897 s remaining
+subpixel-averaging is 53.5757% done, 3.46626 s remaining
+subpixel-averaging is 71.3304% done, 1.6078 s remaining
+subpixel-averaging is 89.0833% done, 0.490223 s remaining
+subpixel-averaging is 74.5078% done, 1.36861 s remaining
+subpixel-averaging is 17.7069% done, 18.5904 s remaining
+subpixel-averaging is 35.4085% done, 7.29735 s remaining
+subpixel-averaging is 53.3615% done, 3.4963 s remaining
+subpixel-averaging is 71.0489% done, 1.63003 s remaining
+subpixel-averaging is 88.7345% done, 0.50787 s remaining
+subpixel-averaging is 73.9731% done, 1.40743 s remaining
+subpixel-averaging is 17.5422% done, 18.803 s remaining
+subpixel-averaging is 35.072% done, 7.40542 s remaining
+subpixel-averaging is 52.8373% done, 3.57063 s remaining
+subpixel-averaging is 70.353% done, 1.68571 s remaining
+subpixel-averaging is 87.858% done, 0.552836 s remaining
+time for set_epsilon = 83.7786 s
+time for set_conductivity = 9.6936 s
+time for set_conductivity = 9.71061 s
+time for set_conductivity = 9.71692 s
+time for set_conductivity = 9.70204 s
+time for set_conductivity = 9.6865 s
+time for set_conductivity = 9.68931 s
+lorentzian susceptibility: frequency=1.73, gamma=5
+lorentzian susceptibility: frequency=2.76, gamma=0.126
+lorentzian susceptibility: frequency=3.64, gamma=0
+-----------
+estimated costs per process: 44707.5, 44707.5
+estimated cost mean = 44707.5, stddev = 0
+Memory usage:  17010000000
+Number of pixels:  168750000
+on time step 1 (time=0.01), 51.2135 s/step
+on time step 2 (time=0.02), 5.38863 s/step
+on time step 3 (time=0.03), 5.37904 s/step
+on time step 4 (time=0.04), 5.37787 s/step
+on time step 5 (time=0.05), 5.38088 s/step
+on time step 6 (time=0.06), 5.37978 s/step
+on time step 7 (time=0.07), 5.38031 s/step
+on time step 8 (time=0.08), 5.38081 s/step
+on time step 9 (time=0.09), 5.37986 s/step
+on time step 10 (time=0.1), 5.37742 s/step
+
+Field time usage:
+            time stepping: 51.8091 s +/- 0.0414973 s
+            communicating: 1.99474 s +/- 0.0416357 s
+     Fourier transforming: 5.00679e-06 s +/- 1.01152e-06 s
+          everything else: 0.000282526 s +/- 3.06829e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0
+            time stepping: 51.8384, 51.7798
+          copying borders: 0, 0
+            communicating: 1.9653, 2.02418
+        outputting fields: 0, 0
+     Fourier transforming: 4.29153e-06, 5.72205e-06
+                      MPB: 0, 0
+        getting farfields: 0, 0
+          everything else: 0.000304222, 0.00026083
+
+outputting timing statistics to file "ex_tandem_tandem_timing_statistics_2_None.csv"...
+
+Elapsed run time = 413.3284 s

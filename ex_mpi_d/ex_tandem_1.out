@@ -1,0 +1,125 @@
+Using MPI version 3.1, 1 processes
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.00277758 s
+Working in 3D dimensions.
+Computational cell is 15 x 15 x 6 with resolution 50
+     block, center = (0,0,0.4)
+          size (1e+20,1e+20,0.6)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     block, center = (0,0,-0.4)
+          size (1e+20,1e+20,0.6)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-7.23,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-7.23,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.73,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.73,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.23,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.23,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-5.73,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-5.73,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 1792 objects not shown)...
+subpixel-averaging is 37.8789% done, 6.56022 s remaining
+subpixel-averaging is 75.7612% done, 1.27979 s remaining
+subpixel-averaging is 8.49555% done, 43.0857 s remaining
+subpixel-averaging is 17.0088% done, 19.5184 s remaining
+subpixel-averaging is 25.5735% done, 11.6422 s remaining
+subpixel-averaging is 34.1125% done, 7.72609 s remaining
+subpixel-averaging is 42.6719% done, 5.37386 s remaining
+subpixel-averaging is 51.3616% done, 3.78819 s remaining
+subpixel-averaging is 59.9981% done, 2.66703 s remaining
+subpixel-averaging is 68.6382% done, 1.82785 s remaining
+subpixel-averaging is 77.3598% done, 1.1707 s remaining
+subpixel-averaging is 85.9865% done, 0.651893 s remaining
+subpixel-averaging is 94.6426% done, 0.226448 s remaining
+subpixel-averaging is 37.3783% done, 6.70165 s remaining
+subpixel-averaging is 74.7565% done, 1.35072 s remaining
+subpixel-averaging is 8.44502% done, 43.3695 s remaining
+subpixel-averaging is 16.9166% done, 19.6456 s remaining
+subpixel-averaging is 25.4441% done, 11.7212 s remaining
+subpixel-averaging is 33.9405% done, 7.78558 s remaining
+subpixel-averaging is 42.4609% done, 5.42049 s remaining
+subpixel-averaging is 51.1072% done, 3.82676 s remaining
+subpixel-averaging is 59.7047% done, 2.69986 s remaining
+subpixel-averaging is 68.2995% done, 1.85656 s remaining
+subpixel-averaging is 76.983% done, 1.19604 s remaining
+subpixel-averaging is 85.569% done, 0.674611 s remaining
+subpixel-averaging is 94.1621% done, 0.248003 s remaining
+subpixel-averaging is 37.1418% done, 6.76977 s remaining
+subpixel-averaging is 74.2906% done, 1.38428 s remaining
+subpixel-averaging is 8.39626% done, 43.6403 s remaining
+subpixel-averaging is 16.8191% done, 19.7837 s remaining
+subpixel-averaging is 25.2854% done, 11.8202 s remaining
+subpixel-averaging is 33.7304% done, 7.85931 s remaining
+subpixel-averaging is 42.1958% done, 5.4798 s remaining
+subpixel-averaging is 50.7792% done, 3.87738 s remaining
+subpixel-averaging is 59.3137% done, 2.74402 s remaining
+subpixel-averaging is 67.843% done, 1.89614 s remaining
+subpixel-averaging is 76.4662% done, 1.23113 s remaining
+subpixel-averaging is 84.9972% done, 0.706095 s remaining
+subpixel-averaging is 93.5211% done, 0.277128 s remaining
+time for set_epsilon = 172.278 s
+time for set_conductivity = 20.2784 s
+time for set_conductivity = 20.2985 s
+time for set_conductivity = 20.3175 s
+time for set_conductivity = 20.2848 s
+time for set_conductivity = 20.2922 s
+time for set_conductivity = 20.2672 s
+lorentzian susceptibility: frequency=1.73, gamma=5
+lorentzian susceptibility: frequency=2.76, gamma=0.126
+lorentzian susceptibility: frequency=3.64, gamma=0
+-----------
+estimated costs per process: 89415
+estimated cost mean = 89415, stddev = 0
+Memory usage:  17010000000
+Number of pixels:  168750000
+on time step 1 (time=0.01), 83.3715 s/step
+on time step 2 (time=0.02), 10.4975 s/step
+on time step 3 (time=0.03), 10.4892 s/step
+on time step 4 (time=0.04), 10.4846 s/step
+on time step 5 (time=0.05), 10.4902 s/step
+on time step 6 (time=0.06), 10.4894 s/step
+on time step 7 (time=0.07), 10.4878 s/step
+on time step 8 (time=0.08), 10.4896 s/step
+on time step 9 (time=0.09), 10.4899 s/step
+on time step 10 (time=0.1), 10.4899 s/step
+
+Field time usage:
+            time stepping: 101.575 s
+            communicating: 3.32202 s
+     Fourier transforming: 5.24521e-06 s
+          everything else: 0.000281096 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 101.575
+          copying borders: 0
+            communicating: 3.32202
+        outputting fields: 0
+     Fourier transforming: 5.24521e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000281096
+
+outputting timing statistics to file "ex_tandem_tandem_timing_statistics_1_None.csv"...
+
+Elapsed run time = 830.7660 s

@@ -1,0 +1,81 @@
+Using MPI version 3.1, 12 processes
+-----------
+Initializing structure...
+Halving computational cell along direction x
+Halving computational cell along direction y
+Halving computational cell along direction z
+Splitting into 12 chunks by cost
+time for choose_chunkdivision = 0.0671132 s
+Working in 3D dimensions.
+Computational cell is 21 x 4.5 x 4.21667 with resolution 120
+     block, center = (0,0,0)
+          size (1e+20,0.5,0.22)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.5654,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 41 objects not shown)...
+time for set_epsilon = 5.9329 s
+time for set_conductivity = 0.561672 s
+time for set_conductivity = 0.55929 s
+time for set_conductivity = 0.559268 s
+time for set_conductivity = 0.559657 s
+time for set_conductivity = 0.559126 s
+time for set_conductivity = 0.559286 s
+lorentzian susceptibility: frequency=0.000905797, gamma=0
+lorentzian susceptibility: frequency=0.88125, gamma=0
+lorentzian susceptibility: frequency=3.31657, gamma=0
+-----------
+estimated costs per process: 4988.61, 5001.71, 5029, 5029.01, 4981.56, 5029, 4981.56, 5076.45, 5029, 5029, 5029, 5029
+estimated cost mean = 5019.41, stddev = 27.0104
+Memory usage:  6274071288
+Number of pixels:  86141921
+on time step 1 (time=0.00416667), 84.2643 s/step
+on time step 6 (time=0.025), 0.86425 s/step
+
+Field time usage:
+            time stepping: 6.16637 s +/- 0.792688 s
+            communicating: 2.47833 s +/- 0.792978 s
+     Fourier transforming: 1.72456e-05 s +/- 5.42473e-06 s
+          everything else: 0.000295162 s +/- 2.67396e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 4.30358, 8.01965, 6.14712, 6.18253, 6.14025, 6.15968, 6.11031, 6.20089, 6.17496, 6.17935, 6.20102, 6.17713
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 4.3409, 0.623449, 2.49675, 2.46255, 2.50477, 2.48529, 2.53466, 2.44419, 2.47015, 2.46565, 2.44379, 2.46777
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 7.62939e-06, 1.09673e-05, 1.33514e-05, 1.54972e-05, 1.52588e-05, 1.50204e-05, 1.7643e-05, 1.81198e-05, 2.16961e-05, 2.16961e-05, 2.38419e-05, 2.6226e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000373363, 0.000284672, 0.000304461, 0.00027895, 0.000295162, 0.000291348, 0.000303745, 0.000281572, 0.000282288, 0.000277758, 0.000296831, 0.000271797
+
+outputting timing statistics to file "ex_nanobeam_nanobeam_timing_statistics_12_None.csv"...
+
+Elapsed run time = 111.1377 s

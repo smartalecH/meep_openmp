@@ -1,0 +1,81 @@
+Using MPI version 3.1, 40 processes
+-----------
+Initializing structure...
+Halving computational cell along direction x
+Halving computational cell along direction y
+Halving computational cell along direction z
+Splitting into 40 chunks by cost
+time for choose_chunkdivision = 0.131308 s
+Working in 3D dimensions.
+Computational cell is 21 x 4.5 x 4.21667 with resolution 120
+     block, center = (0,0,0)
+          size (1e+20,0.5,0.22)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.5654,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 41 objects not shown)...
+time for set_epsilon = 2.00547 s
+time for set_conductivity = 0.191415 s
+time for set_conductivity = 0.191671 s
+time for set_conductivity = 0.191259 s
+time for set_conductivity = 0.191261 s
+time for set_conductivity = 0.191452 s
+time for set_conductivity = 0.191426 s
+lorentzian susceptibility: frequency=0.000905797, gamma=0
+lorentzian susceptibility: frequency=0.88125, gamma=0
+lorentzian susceptibility: frequency=3.31657, gamma=0
+-----------
+estimated costs per process: 1472.17, 1496.23, 1500.66, 1529.81, 1482.11, 1513.03, 1503.59, 1532.79, 1480.1, 1508.84, 1480.1, 1508.84, 1480.1, 1508.84, 1518.19, 1518.19, 1480.1, 1508.84, 1518.19, 1518.19, 1480.1, 1508.84, 1518.19, 1518.19, 1480.1, 1508.84, 1480.1, 1508.84, 1518.19, 1518.19, 1518.19, 1518.19, 1480.1, 1508.84, 1518.19, 1518.19, 1503.59, 1532.79, 1503.59, 1532.79
+estimated cost mean = 1505.82, stddev = 17.4221
+Memory usage:  6274071288
+Number of pixels:  86141921
+on time step 1 (time=0.00416667), 200.806 s/step
+on time step 8 (time=0.0333333), 0.613072 s/step
+
+Field time usage:
+            time stepping: 2.51306 s +/- 0.585955 s
+            communicating: 4.00831 s +/- 0.586755 s
+     Fourier transforming: 5.23806e-05 s +/- 2.47518e-05 s
+          everything else: 0.00063073 s +/- 0.000333329 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 1.51601, 2.33396, 2.51514, 3.63712, 2.01869, 3.36372, 1.78259, 3.14304, 1.78063, 3.12305, 1.7685, 3.11841, 1.76789, 3.12073, 2.601, 2.61457, 1.75887, 3.11566, 2.59194, 2.52373, 2.05126, 2.9404, 2.83688, 2.53696, 1.67237, 3.22891, 1.71137, 3.00786, 2.57969, 2.58665, 2.64939, 2.55868, 1.66501, 2.97362, 2.87942, 2.54839, 1.95619, 3.03746, 1.68057, 3.22616
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 5.00642, 4.18776, 4.00725, 2.8813, 4.50335, 3.1568, 4.73997, 3.37746, 4.74178, 3.39753, 4.7543, 3.40225, 4.75475, 3.39998, 3.92041, 3.90654, 4.76384, 3.40495, 3.92954, 3.99573, 4.46717, 3.5791, 3.6832, 3.98445, 4.85019, 3.29196, 4.81142, 3.51303, 3.94207, 3.93513, 3.87244, 3.96284, 4.85775, 3.54746, 3.64233, 3.97286, 4.56661, 3.48324, 4.84192, 3.29514
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 9.53674e-06, 1.40667e-05, 1.7643e-05, 2.16961e-05, 2.16961e-05, 2.5034e-05, 2.16961e-05, 3.50475e-05, 2.55108e-05, 3.00407e-05, 2.98023e-05, 4.19617e-05, 3.00407e-05, 3.86238e-05, 4.1008e-05, 3.83854e-05, 3.3617e-05, 5.60284e-05, 5.55515e-05, 4.98295e-05, 5.62668e-05, 6.38962e-05, 5.26905e-05, 6.69956e-05, 4.98295e-05, 7.48634e-05, 5.74589e-05, 6.98566e-05, 7.89165e-05, 6.77109e-05, 7.86781e-05, 7.89165e-05, 5.6982e-05, 9.10759e-05, 8.84533e-05, 8.7738e-05, 6.96182e-05, 9.72748e-05, 7.70092e-05, 9.41753e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000601053, 0.000680208, 0.000571012, 0.000754595, 0.000575781, 0.000614405, 0.000552177, 0.000579357, 0.000518799, 0.000671148, 0.000638485, 0.000648022, 0.000573397, 0.000635624, 0.000533819, 0.000519991, 0.000451565, 0.000640392, 0.000548601, 0.000704765, 0.00263071, 0.000736952, 0.000546694, 0.000491142, 0.000590801, 0.000713348, 0.00048089, 0.000636339, 0.000473976, 0.000535488, 0.000526667, 0.00058651, 0.000554562, 0.000611305, 0.000524521, 0.00044632, 0.000453234, 0.000586987, 0.000533819, 0.000555754
+
+outputting timing statistics to file "ex_nanobeam_nanobeam_timing_statistics_40_None.csv"...
+
+Elapsed run time = 213.5206 s

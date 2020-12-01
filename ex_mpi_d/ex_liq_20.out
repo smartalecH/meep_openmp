@@ -1,0 +1,48 @@
+Using MPI version 3.1, 20 processes
+-----------
+Initializing structure...
+Splitting into 20 chunks by cost
+time for choose_chunkdivision = 0.00377226 s
+Working in 3D dimensions.
+Computational cell is 14 x 6.5 x 7 with resolution 50
+     block, center = (-6,0,0)
+          size (2,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1.28604,1.28604,1.28852)
+     block, center = (0,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.71284,2.61034)
+time for set_epsilon = 4.80916 s
+lorentzian susceptibility: frequency=9.89653, gamma=0
+lorentzian susceptibility: frequency=0.1, gamma=0
+lorentzian susceptibility: frequency=9.97083, gamma=0
+-----------
+estimated costs per process: 2816.01, 2835.45, 2816.01, 2835.45, 2843.92, 2863.89, 2843.92, 2863.89, 2869.93, 2869.93, 2869.93, 2869.93, 2869.93, 2869.93, 2860.82, 2882.9, 2869.93, 2869.93, 2860.82, 2882.9
+estimated cost mean = 2858.27, stddev = 19.7393
+Memory usage:  8528520000
+Number of pixels:  79625000
+on time step 1 (time=0.01), 83.1407 s/step
+on time step 9 (time=0.09), 0.530776 s/step
+
+Field time usage:
+            time stepping: 3.34224 s +/- 0.693688 s
+            communicating: 1.96365 s +/- 0.695291 s
+     Fourier transforming: 3.08394e-05 s +/- 1.0721e-05 s
+          everything else: 0.000435114 s +/- 6.20196e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 2.22619, 2.24265, 2.21878, 2.23615, 2.94719, 2.94444, 2.93148, 2.93585, 3.985, 3.99575, 3.9989, 4.0148, 3.99247, 3.97477, 3.55047, 3.56369, 3.98427, 3.98068, 3.55359, 3.56778
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 3.08181, 3.06532, 3.08925, 3.07203, 2.36009, 2.36273, 2.37566, 2.37111, 1.31876, 1.30814, 1.30544, 1.28849, 1.31128, 1.32973, 1.75529, 1.74241, 1.3199, 1.32344, 1.75331, 1.73884
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 1.3113e-05, 1.52588e-05, 2.00272e-05, 2.00272e-05, 2.19345e-05, 2.12193e-05, 1.71661e-05, 2.47955e-05, 3.12328e-05, 3.29018e-05, 4.00543e-05, 3.76701e-05, 3.83854e-05, 4.05312e-05, 3.38554e-05, 3.69549e-05, 4.52995e-05, 4.33922e-05, 3.55244e-05, 4.74453e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000474691, 0.000385284, 0.000402451, 0.00037694, 0.000352621, 0.000415802, 0.000340939, 0.000456095, 0.000433207, 0.000407934, 0.000617504, 0.000470638, 0.000444889, 0.000444412, 0.000478506, 0.000445843, 0.000428915, 0.000509024, 0.000365257, 0.000451326
+
+outputting timing statistics to file "ex_liq_liq_timing_statistics_20_None.csv"...
+
+Elapsed run time = 100.6209 s

@@ -1,0 +1,59 @@
+Using MPI version 3.1, 4 processes
+-----------
+Initializing structure...
+Splitting into 4 chunks evenly
+time for choose_chunkdivision = 0.00189781 s
+Working in 3D dimensions.
+Computational cell is 11 x 11 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+time for set_epsilon = 9.99989 s
+time for set_conductivity = 0.85724 s
+time for set_conductivity = 0.861714 s
+time for set_conductivity = 0.864114 s
+time for set_conductivity = 0.863836 s
+time for set_conductivity = 0.863921 s
+time for set_conductivity = 0.865557 s
+lorentzian susceptibility: frequency=2.80116, gamma=2.72777
+lorentzian susceptibility: frequency=1.45825, gamma=1.08966
+lorentzian susceptibility: frequency=1.24532, gamma=0.251645
+lorentzian susceptibility: frequency=0.130662, gamma=0.268583
+drude susceptibility: frequency=1e-10, gamma=0.0379081
+-----------
+Memory usage:  18500367912
+Number of pixels:  48315301
+on time step 1 (time=0.00909091), 26.9373 s/step
+on time step 5 (time=0.0454545), 1.27395 s/step
+on time step 9 (time=0.0818182), 1.27434 s/step
+
+Field time usage:
+            time stepping: 11.1031 s +/- 0.0682974 s
+            communicating: 1.63907 s +/- 0.0681862 s
+     Fourier transforming: 7.27177e-06 s +/- 1.35571e-06 s
+          everything else: 0.000243604 s +/- 3.64281e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0
+            time stepping: 11.0722, 11.2052, 11.0617, 11.0733
+          copying borders: 0, 0, 0, 0
+            communicating: 1.66983, 1.53709, 1.68042, 1.66893
+        outputting fields: 0, 0, 0, 0
+     Fourier transforming: 7.86781e-06, 5.72205e-06, 6.67572e-06, 8.82149e-06
+                      MPB: 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0
+          everything else: 0.000243902, 0.000215054, 0.000294924, 0.000220537
+
+outputting timing statistics to file "ex_oled_oled_timing_statistics_4_None.csv"...
+
+Elapsed run time = 79.6094 s
