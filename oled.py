@@ -1,16 +1,15 @@
 import meep as mp
-from meep.materials import Al
 import numpy as np
 import os
 import argparse
 
 OMP_NUM_THREADS = os.getenv('OMP_NUM_THREADS')
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--L', type=float, default=10.0, help='design size')
-    parser.add_argument('--fprefix',type=str, default="")
-    args = parser.parse_args()
+def main(args):
+    if args.dispersion:
+        from meep.materials import Al
+    else:
+        Al = mp.Medium(index=3)
 
     lambda_min = 0.4         # minimum source wavelength
     lambda_max = 0.8         # maximum source wavelength
@@ -19,7 +18,7 @@ def main():
     fcen = 0.5*(fmin+fmax)   # source frequency center
     df = fmax-fmin           # source frequency width
 
-    resolution = 55
+    resolution = args.res
     L = args.L               # length of OLED        
     nfreq = 100              # number of frequency bins
     tABS = 0.5               # absorber thickness
@@ -86,4 +85,10 @@ def main():
     sim.output_times('{}oled_timing_statistics_{}_{}.csv'.format(args.fprefix,mp.count_processors(),OMP_NUM_THREADS))
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--L', type=float, default=10.0, help='design size')
+    parser.add_argument('--res', type=float, default=55, help='design size')
+    parser.add_argument('--dispersion', action='store_true', default=False, help='use dispersive materials? (default: False)')
+    parser.add_argument('--fprefix',type=str, default="")
+    args = parser.parse_args()
+    main(args)
