@@ -1,0 +1,79 @@
+Using MPI version 3.1, 8 processes
+-----------
+Initializing structure...
+Splitting into 8 chunks by cost
+time for choose_chunkdivision = 0.780889 s
+Working in 3D dimensions.
+Computational cell is 15 x 15 x 6 with resolution 50
+     block, center = (0,0,0.4)
+          size (1e+20,1e+20,0.6)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     block, center = (0,0,-0.4)
+          size (1e+20,1e+20,0.6)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     cylinder, center = (-7.23,-7.23,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-7.23,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.73,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.73,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.23,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.23,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-5.73,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-5.73,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 1792 objects not shown)...
+subpixel-averaging is 79.3487% done, 1.04107 s remaining
+subpixel-averaging is 78.7404% done, 1.08005 s remaining
+subpixel-averaging is 78.026% done, 1.12656 s remaining
+time for set_epsilon = 19.206 s
+time for set_conductivity = 2.14808 s
+time for set_conductivity = 2.15214 s
+time for set_conductivity = 2.15409 s
+time for set_conductivity = 2.15134 s
+time for set_conductivity = 2.14746 s
+time for set_conductivity = 2.14556 s
+-----------
+estimated costs per process: 8309.65, 8354.08, 8309.65, 8354.08, 8309.65, 8354.08, 8309.65, 8354.08
+estimated cost mean = 8331.87, stddev = 23.7524
+Memory usage:  12150000000
+Number of pixels:  168750000
+on time step 1 (time=0.01), 27.1424 s/step
+on time step 7 (time=0.07), 0.769408 s/step
+
+Field time usage:
+            time stepping: 7.27407 s +/- 0.0333259 s
+            communicating: 0.419494 s +/- 0.0331723 s
+     Fourier transforming: 8.9705e-06 s +/- 3.00753e-06 s
+          everything else: 0.000236839 s +/- 2.5307e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 7.30986, 7.29035, 7.23726, 7.26984, 7.27787, 7.32189, 7.22553, 7.25996
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 0.383524, 0.403084, 0.455731, 0.422941, 0.415597, 0.372395, 0.467965, 0.434716
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 5.48363e-06, 6.19888e-06, 6.19888e-06, 8.34465e-06, 9.77516e-06, 1.28746e-05, 9.53674e-06, 1.33514e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000216007, 0.00024271, 0.0002141, 0.000237942, 0.000246048, 0.000289679, 0.000211954, 0.000236273
+
+outputting timing statistics to file "ex_tandem_tandem_timing_statistics_8_None.csv"...
+
+Elapsed run time = 68.3661 s

@@ -1,0 +1,52 @@
+Using MPI version 3.1, 4 processes
+-----------
+Initializing structure...
+Splitting into 4 chunks evenly
+time for choose_chunkdivision = 0.00188494 s
+Working in 3D dimensions.
+Computational cell is 11 x 11 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+time for set_epsilon = 8.96149 s
+time for set_conductivity = 0.878809 s
+time for set_conductivity = 0.888279 s
+time for set_conductivity = 0.885196 s
+time for set_conductivity = 0.888047 s
+time for set_conductivity = 0.885935 s
+time for set_conductivity = 0.887281 s
+-----------
+Memory usage:  17534061672
+Number of pixels:  48315301
+on time step 1 (time=0.00909091), 17.5806 s/step
+
+Field time usage:
+            time stepping: 3.7355 s +/- 0.0250695 s
+            communicating: 0.606701 s +/- 0.0251569 s
+     Fourier transforming: 7.03335e-06 s +/- 1.61116e-06 s
+          everything else: 0.000236571 s +/- 2.03783e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0
+            time stepping: 3.73211, 3.73123, 3.70911, 3.76955
+          copying borders: 0, 0, 0, 0
+            communicating: 0.610258, 0.610785, 0.633212, 0.572548
+        outputting fields: 0, 0, 0, 0
+     Fourier transforming: 5.48363e-06, 6.67572e-06, 6.67572e-06, 9.29832e-06
+                      MPB: 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0
+          everything else: 0.000258446, 0.000225067, 0.000214338, 0.000248432
+
+outputting timing statistics to file "ex_oled_oled_timing_statistics_4_None.csv"...
+
+Elapsed run time = 36.4632 s

@@ -1,0 +1,188 @@
+Using MPI version 3.1, 32 processes
+-----------
+Initializing structure...
+Padding y to even number of grid points.
+Halving computational cell along direction y
+Splitting into 32 chunks by cost
+time for choose_chunkdivision = 0.139008 s
+Working in 3D dimensions.
+Computational cell is 15.1 x 15.1 x 4.32 with resolution 50
+     cylinder, center = (0,0,0)
+          radius 6, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     cylinder, center = (0,0,0)
+          radius 5.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     cylinder, center = (0,0,0)
+          radius 4.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 4, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     cylinder, center = (0,0,0)
+          radius 3.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 3, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     cylinder, center = (0,0,0)
+          radius 2.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 2, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     cylinder, center = (0,0,0)
+          radius 1.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 10 objects not shown)...
+time for set_epsilon = 1.88989 s
+-----------
+estimated costs per process: 1776.5, 1776.99, 1788.9, 1800.16, 1761.73, 1797.68, 1797.68, 1833.64, 1767.65, 1767.65, 1787.62, 1842.66, 1779.12, 1810.86, 1779.12, 1810.86, 1786.97, 1802.36, 1786.97, 1802.36, 1786.97, 1802.36, 1786.94, 1802.36, 1771.22, 1817.41, 1783.16, 1812.11, 1768.83, 1783.12, 1826.32, 1826.32
+estimated cost mean = 1794.52, stddev = 20.4221
+KPOINT: 1.5, 0, 0
+    near maximum in trace
+    iteration    1: trace = 4.335486378484786 (187.875% change)
+    iteration    2: trace = 0.7669565228191599 (139.875% change)
+    iteration    3: trace = 0.5651867614992182 (30.2925% change)
+    iteration    4: trace = 0.5507721470928724 (2.58336% change)
+    iteration    5: trace = 0.5471679101346608 (0.656545% change)
+    iteration    6: trace = 0.5466700597752132 (0.0910282% change)
+    iteration    7: trace = 0.5465823110426004 (0.0160528% change)
+    iteration    8: trace = 0.5465638647564826 (0.0033749% change)
+    iteration    9: trace = 0.5465618563258464 (0.000367466% change)
+    iteration   10: trace = 0.5465614586955848 (7.27512e-05% change)
+    iteration   11: trace = 0.5465614305351192 (5.1523e-06% change)
+    iteration   12: trace = 0.5465614263514296 (7.65456e-07% change)
+    iteration   13: trace = 0.5465614256144153 (1.34846e-07% change)
+    iteration   14: trace = 0.5465614255737472 (7.44073e-09% change)
+    iteration   15: trace = 0.5465614255733731 (6.84544e-11% change)
+MPB solved for frequency_1(1.5,0,0) = 0.739298 after 15 iters
+Newton step: group velocity v=0.278892, kmatch=1.16246
+    iteration    1: trace = 0.4180305244129126 (3.6785% change)
+    iteration    2: trace = 0.4172342811755746 (0.190656% change)
+    iteration    3: trace = 0.4170709437861395 (0.0391553% change)
+    iteration    4: trace = 0.4170440944206869 (0.00643781% change)
+    iteration    5: trace = 0.4170414080387864 (0.00064415% change)
+    iteration    6: trace = 0.4170410963994299 (7.47263e-05% change)
+    iteration    7: trace = 0.4170410401678193 (1.34835e-05% change)
+    iteration    8: trace = 0.4170410375168189 (6.35669e-07% change)
+    iteration    9: trace = 0.4170410371533823 (8.71465e-08% change)
+    iteration   10: trace = 0.4170410369569024 (4.71128e-08% change)
+    iteration   11: trace = 0.4170410367981537 (3.80655e-08% change)
+    iteration   12: trace = 0.4170410366473333 (3.61644e-08% change)
+    iteration   13: trace = 0.4170410364881044 (3.81806e-08% change)
+    iteration   14: trace = 0.4170410362946526 (4.63868e-08% change)
+    iteration   15: trace = 0.4170410361644025 (3.1232e-08% change)
+    iteration   16: trace = 0.4170410361457654 (4.46889e-09% change)
+    iteration   17: trace = 0.4170410361370447 (2.09107e-09% change)
+    iteration   18: trace = 0.4170410361310979 (1.42595e-09% change)
+    iteration   19: trace = 0.4170410361263742 (1.13269e-09% change)
+    iteration   20: trace = 0.4170410361223088 (9.74824e-10% change)
+    iteration   21: trace = 0.4170410361186356 (8.80757e-10% change)
+    iteration   22: trace = 0.4170410361152046 (8.22709e-10% change)
+    iteration   23: trace = 0.4170410361119208 (7.87395e-10% change)
+    iteration   24: trace = 0.4170410361087187 (7.67815e-10% change)
+    iteration   25: trace = 0.4170410361055448 (7.61054e-10% change)
+    iteration   26: trace = 0.4170410361023545 (7.64994e-10% change)
+    iteration   27: trace = 0.4170410360991031 (7.79622e-10% change)
+    iteration   28: trace = 0.4170410360957423 (8.05884e-10% change)
+    iteration   29: trace = 0.4170410360922144 (8.45923e-10% change)
+    iteration   30: trace = 0.4170410360884421 (9.04556e-10% change)
+    iteration   31: trace = 0.4170410360843109 (9.90584e-10% change)
+    iteration   32: trace = 0.4170410360796397 (1.1201e-09% change)
+    iteration   33: trace = 0.4170410360740929 (1.33003e-09% change)
+    iteration   34: trace = 0.4170410360669666 (1.70876e-09% change)
+    iteration   35: trace = 0.4170410360566423 (2.47561e-09% change)
+    iteration   36: trace = 0.4170410360461186 (2.52342e-09% change)
+    iteration   37: trace = 0.4170410360420525 (9.74997e-10% change)
+    iteration   38: trace = 0.4170410360398218 (5.34891e-10% change)
+    iteration   39: trace = 0.41704103603827 (3.72101e-10% change)
+    iteration   40: trace = 0.4170410360370547 (2.91412e-10% change)
+    iteration   41: trace = 0.4170410360360369 (2.44039e-10% change)
+    iteration   42: trace = 0.4170410360351469 (2.13424e-10% change)
+    iteration   43: trace = 0.4170410360343461 (1.92007e-10% change)
+    iteration   44: trace = 0.4170410360336106 (1.76367e-10% change)
+    iteration   45: trace = 0.4170410360329235 (1.64747e-10% change)
+    iteration   46: trace = 0.4170410360322744 (1.55642e-10% change)
+    iteration   47: trace = 0.4170410360316535 (1.48894e-10% change)
+    iteration   48: trace = 0.4170410360310564 (1.4317e-10% change)
+    iteration   49: trace = 0.417041036030477 (1.38924e-10% change)
+    iteration   50: trace = 0.417041036029912 (1.3549e-10% change)
+    iteration   51: trace = 0.4170410360293573 (1.33014e-10% change)
+    iteration   52: trace = 0.417041036028812 (1.30738e-10% change)
+    iteration   53: trace = 0.4170410360282714 (1.29646e-10% change)
+    iteration   54: trace = 0.4170410360277345 (1.28728e-10% change)
+    iteration   55: trace = 0.4170410360272002 (1.28116e-10% change)
+    iteration   56: trace = 0.4170410360266649 (1.28369e-10% change)
+    iteration   57: trace = 0.4170410360261278 (1.28781e-10% change)
+    iteration   58: trace = 0.4170410360255867 (1.29753e-10% change)
+    iteration   59: trace = 0.4170410360250396 (1.3119e-10% change)
+    iteration   60: trace = 0.4170410360244854 (1.32881e-10% change)
+    iteration   61: trace = 0.4170410360239206 (1.35423e-10% change)
+    iteration   62: trace = 0.4170410360233434 (1.38405e-10% change)
+    iteration   63: trace = 0.4170410360227507 (1.42119e-10% change)
+    iteration   64: trace = 0.4170410360221397 (1.46511e-10% change)
+    iteration   65: trace = 0.4170410360215048 (1.52248e-10% change)
+    iteration   66: trace = 0.4170410360208417 (1.58997e-10% change)
+    iteration   67: trace = 0.4170410360201429 (1.67555e-10% change)
+    iteration   68: trace = 0.4170410360194003 (1.78071e-10% change)
+    iteration   69: trace = 0.4170410360185999 (1.91914e-10% change)
+    resetting CG direction...
+    large trace change predicted (2.57328e-08%)
+    iteration   70: trace = 0.417041035911284 (2.57327e-08% change)
+    iteration   71: trace = 0.4170410358867941 (5.87229e-09% change)
+    iteration   72: trace = 0.4170410358803192 (1.5526e-09% change)
+    iteration   73: trace = 0.4170410358785919 (4.14176e-10% change)
+    iteration   74: trace = 0.4170410358780445 (1.31244e-10% change)
+    iteration   75: trace = 0.4170410358778425 (4.8451e-11% change)
+MPB solved for frequency_1(1.16246,0,0) = 0.645787 after 75 iters
+Newton step: group velocity v=0.277641, kmatch=1.16021
+    iteration    1: trace = 0.4162330821439324 (0.000240567% change)
+    iteration    2: trace = 0.4162330096284591 (1.74218e-05% change)
+    iteration    3: trace = 0.4162329979699265 (2.80096e-06% change)
+    iteration    4: trace = 0.416232995986055 (4.76625e-07% change)
+    iteration    5: trace = 0.4162329957302944 (6.14465e-08% change)
+    iteration    6: trace = 0.4162329957227867 (1.80374e-09% change)
+    iteration    7: trace = 0.4162329957197555 (7.28229e-10% change)
+    iteration    8: trace = 0.4162329957171281 (6.31233e-10% change)
+    iteration    9: trace = 0.4162329957140732 (7.33937e-10% change)
+    iteration   10: trace = 0.4162329957098835 (1.00658e-09% change)
+    iteration   11: trace = 0.4162329957034358 (1.54907e-09% change)
+    iteration   12: trace = 0.4162329956927387 (2.56997e-09% change)
+    iteration   13: trace = 0.4162329956763489 (3.93766e-09% change)
+    iteration   14: trace = 0.4162329956725707 (9.07726e-10% change)
+    iteration   15: trace = 0.4162329956719813 (1.41594e-10% change)
+    iteration   16: trace = 0.4162329956719069 (1.78843e-11% change)
+MPB solved for frequency_1(1.16021,0,0) = 0.645161 after 16 iters
+Newton step: group velocity v=0.277707, kmatch=1.16021
+    iteration    1: trace = 0.4162330905309179 (1.56705e-11% change)
+MPB solved for frequency_1(1.16021,0,0) = 0.645161 after 1 iters
+Newton step: group velocity v=0.277707, kmatch=1.16021
+Memory usage:  6736514400
+Number of pixels:  61562700
+on time step 1 (time=0.01), 113.298 s/step
+
+Field time usage:
+            time stepping: 1.07651 s +/- 0.266992 s
+            communicating: 0.636961 s +/- 0.267249 s
+     Fourier transforming: 4.58881e-05 s +/- 1.59227e-05 s
+          everything else: 0.00052502 s +/- 8.46574e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 1.18046, 1.33625, 1.10229, 1.07572, 1.23808, 1.25111, 1.24921, 1.26408, 1.05467, 1.01833, 1.18945, 1.41028, 1.39768, 1.40038, 1.39532, 1.40056, 1.23227, 1.39083, 1.23483, 1.39274, 0.75639, 0.866516, 0.763389, 0.883058, 0.756081, 0.860795, 0.711717, 0.639183, 0.877491, 0.795594, 0.676139, 0.647481
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 0.533585, 0.377014, 0.611166, 0.638308, 0.475552, 0.462262, 0.464107, 0.449242, 0.659256, 0.695604, 0.523782, 0.302799, 0.315423, 0.312296, 0.317308, 0.312622, 0.48143, 0.322084, 0.478886, 0.320285, 0.957243, 0.846547, 0.95049, 0.83035, 0.957424, 0.852507, 1.00215, 1.07441, 0.835777, 0.917781, 1.0383, 1.06676
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 1.00136e-05, 2.55108e-05, 2.19345e-05, 2.6226e-05, 2.74181e-05, 2.52724e-05, 3.00407e-05, 3.21865e-05, 3.76701e-05, 3.50475e-05, 5.05447e-05, 5.36442e-05, 5.34058e-05, 6.07967e-05, 6.22272e-05, 6.17504e-05, 5.53131e-05, 6.46114e-05, 6.07967e-05, 7.43866e-05, 3.79086e-05, 5.55515e-05, 3.8147e-05, 4.50611e-05, 4.26769e-05, 5.79357e-05, 4.43459e-05, 3.83854e-05, 5.8651e-05, 6.8903e-05, 4.81606e-05, 6.38962e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.00049758, 0.00063014, 0.000532866, 0.000598431, 0.000475645, 0.000458717, 0.000502348, 0.000525236, 0.00061965, 0.00047493, 0.000593901, 0.000618458, 0.000613928, 0.000606775, 0.000644207, 0.0006001, 0.000533819, 0.000698566, 0.000488281, 0.000635147, 0.000452995, 0.000543833, 0.000370026, 0.000409603, 0.000517368, 0.00046134, 0.000388622, 0.000392675, 0.000471115, 0.000519753, 0.000444889, 0.000479698
+
+outputting timing statistics to file "ex_grating_grating_timing_statistics_32_None.csv"...
+
+Elapsed run time = 156.1196 s

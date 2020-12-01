@@ -1,0 +1,49 @@
+Using MPI version 3.1, 2 processes
+-----------
+Initializing structure...
+Splitting into 2 chunks by cost
+time for choose_chunkdivision = 0.000481129 s
+Working in 3D dimensions.
+Computational cell is 14 x 6.5 x 7 with resolution 50
+     block, center = (-6,0,0)
+          size (2,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1.96,1.96,1.96)
+     block, center = (0,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.71284,2.61034)
+subpixel-averaging is 62.7253% done, 2.37712 s remaining
+subpixel-averaging is 62.1504% done, 2.43602 s remaining
+subpixel-averaging is 62.364% done, 2.41426 s remaining
+time for set_epsilon = 31.6652 s
+-----------
+estimated costs per process: 23468.7, 23468.7
+estimated cost mean = 23468.7, stddev = 0
+Memory usage:  6344520000
+Number of pixels:  79625000
+on time step 1 (time=0.01), 32.9789 s/step
+on time step 5 (time=0.05), 1.07545 s/step
+on time step 9 (time=0.09), 1.07497 s/step
+
+Field time usage:
+            time stepping: 9.71241 s +/- 0.0515859 s
+            communicating: 1.03927 s +/- 0.0514804 s
+     Fourier transforming: 6.67572e-06 s +/- 1.68587e-06 s
+          everything else: 0.000268579 s +/- 2.64682e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0
+            time stepping: 9.74889, 9.67593
+          copying borders: 0, 0
+            communicating: 1.00286, 1.07567
+        outputting fields: 0, 0
+     Fourier transforming: 5.48363e-06, 7.86781e-06
+                      MPB: 0, 0
+        getting farfields: 0, 0
+          everything else: 0.000249863, 0.000287294
+
+outputting timing statistics to file "ex_liq_liq_timing_statistics_2_None.csv"...
+
+Elapsed run time = 76.1972 s

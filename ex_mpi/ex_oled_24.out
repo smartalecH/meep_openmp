@@ -1,0 +1,52 @@
+Using MPI version 3.1, 24 processes
+-----------
+Initializing structure...
+Splitting into 24 chunks evenly
+time for choose_chunkdivision = 0.0175416 s
+Working in 3D dimensions.
+Computational cell is 11 x 11 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+time for set_epsilon = 1.53919 s
+time for set_conductivity = 0.146764 s
+time for set_conductivity = 0.148607 s
+time for set_conductivity = 0.150547 s
+time for set_conductivity = 0.150422 s
+time for set_conductivity = 0.150505 s
+time for set_conductivity = 0.150651 s
+-----------
+Memory usage:  17534061672
+Number of pixels:  48315301
+on time step 1 (time=0.00909091), 40.2252 s/step
+
+Field time usage:
+            time stepping: 1.27746 s +/- 0.329525 s
+            communicating: 0.533577 s +/- 0.329616 s
+     Fourier transforming: 2.64049e-05 s +/- 1.20626e-05 s
+          everything else: 0.000455995 s +/- 9.14677e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 1.51306, 1.52424, 1.51984, 1.5227, 1.25112, 1.25266, 1.50649, 1.24428, 1.25037, 1.52033, 1.52654, 1.52006, 1.51312, 1.24866, 1.24808, 1.52216, 1.52567, 1.52168, 1.24167, 1.24945, 0.618276, 0.605619, 0.603697, 0.609294
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 0.29814, 0.286754, 0.29139, 0.28837, 0.559685, 0.558103, 0.304704, 0.566515, 0.560561, 0.290598, 0.28457, 0.291081, 0.297998, 0.562104, 0.562686, 0.289091, 0.28518, 0.289214, 0.56911, 0.561442, 1.19304, 1.20576, 1.20787, 1.20189
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 8.82149e-06, 1.14441e-05, 1.57356e-05, 1.90735e-05, 2.24113e-05, 2.67029e-05, 1.74046e-05, 2.67029e-05, 3.21865e-05, 2.57492e-05, 2.5034e-05, 2.98023e-05, 2.74181e-05, 3.62396e-05, 4.36306e-05, 3.02792e-05, 3.55244e-05, 4.05312e-05, 4.8399e-05, 5.34058e-05, 1.35899e-05, 1.57356e-05, 1.19209e-05, 1.5974e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000367641, 0.000462294, 0.000418663, 0.000529051, 0.000487089, 0.00053525, 0.000349522, 0.000524282, 0.000539303, 0.000485897, 0.000416756, 0.000385046, 0.000381231, 0.000525236, 0.000473976, 0.000403166, 0.00042367, 0.000458479, 0.000540257, 0.00047183, 0.000528812, 0.000276089, 0.000280857, 0.000679493
+
+outputting timing statistics to file "ex_oled_oled_timing_statistics_24_None.csv"...
+
+Elapsed run time = 44.5984 s

@@ -1,0 +1,44 @@
+Using MPI version 3.1, 8 processes
+-----------
+Initializing structure...
+Splitting into 8 chunks by cost
+time for choose_chunkdivision = 0.00130177 s
+Working in 3D dimensions.
+Computational cell is 14 x 6.5 x 7 with resolution 50
+     block, center = (-6,0,0)
+          size (2,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1.96,1.96,1.96)
+     block, center = (0,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.71284,2.61034)
+time for set_epsilon = 9.67451 s
+-----------
+estimated costs per process: 5855.18, 5855.18, 5879.18, 5879.18, 5851.32, 5851.32, 5883.04, 5883.04
+estimated cost mean = 5867.18, stddev = 15.0357
+Memory usage:  6344520000
+Number of pixels:  79625000
+on time step 1 (time=0.01), 36.5588 s/step
+
+Field time usage:
+            time stepping: 2.95257 s +/- 0.47687 s
+            communicating: 0.968886 s +/- 0.477446 s
+     Fourier transforming: 9.77516e-06 s +/- 3.04792e-06 s
+          everything else: 0.000246197 s +/- 1.78083e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 2.5168, 2.5068, 3.38277, 3.3918, 3.40432, 3.41523, 2.49741, 2.50544
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 1.40573, 1.41543, 0.538335, 0.529518, 0.516397, 0.505305, 1.42423, 1.41615
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 6.19888e-06, 5.96046e-06, 7.39098e-06, 8.82149e-06, 1.14441e-05, 1.23978e-05, 1.23978e-05, 1.35899e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000238895, 0.000246763, 0.000246525, 0.000228643, 0.000241995, 0.000232458, 0.000247478, 0.000286818
+
+outputting timing statistics to file "ex_liq_liq_timing_statistics_8_None.csv"...
+
+Elapsed run time = 50.4371 s

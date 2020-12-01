@@ -1,0 +1,5 @@
+connecting chunks, time stepping, copying borders, communicating, outputting fields, Fourier transforming, MPB, getting farfields, everything else
+0, 7.62547, 0, 0.543053, 0, 5.96046e-06, 0, 0, 0.000306606
+0, 5.56338, 0, 2.60519, 0, 5.96046e-06, 0, 0, 0.000204086
+0, 5.5114, 0, 2.65732, 0, 9.05991e-06, 0, 0, 0.000223637
+0, 5.55893, 0, 2.61014, 0, 8.82149e-06, 0, 0, 0.000246763

@@ -1,0 +1,76 @@
+Using MPI version 3.1, 16 processes
+-----------
+Initializing structure...
+Splitting into 16 chunks by cost
+time for choose_chunkdivision = 1.43012 s
+Working in 3D dimensions.
+Computational cell is 15 x 15 x 6 with resolution 50
+     block, center = (0,0,0.4)
+          size (1e+20,1e+20,0.6)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     block, center = (0,0,-0.4)
+          size (1e+20,1e+20,0.6)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     cylinder, center = (-7.23,-7.23,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-7.23,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.73,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.73,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.23,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-6.23,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-5.73,0.45)
+          radius 0.1, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-7.23,-5.73,-0.35)
+          radius 0.25, height 0.5, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 1792 objects not shown)...
+time for set_epsilon = 9.3353 s
+time for set_conductivity = 1.03067 s
+time for set_conductivity = 1.02595 s
+time for set_conductivity = 1.02901 s
+time for set_conductivity = 1.02674 s
+time for set_conductivity = 1.02389 s
+time for set_conductivity = 1.02315 s
+-----------
+estimated costs per process: 4143.74, 4165.9, 4177.04, 4177.04, 4143.74, 4165.9, 4177.04, 4177.04, 4143.74, 4165.9, 4177.04, 4177.04, 4143.74, 4165.9, 4177.04, 4177.04
+estimated cost mean = 4165.93, stddev = 14.0396
+Memory usage:  12150000000
+Number of pixels:  168750000
+on time step 1 (time=0.01), 42.8422 s/step
+on time step 8 (time=0.08), 0.655559 s/step
+
+Field time usage:
+            time stepping: 6.14459 s +/- 0.0401223 s
+            communicating: 0.408986 s +/- 0.0403892 s
+     Fourier transforming: 1.99974e-05 s +/- 7.5745e-06 s
+          everything else: 0.000330493 s +/- 6.18488e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 6.10754, 6.12662, 6.17064, 6.17793, 6.1017, 6.13397, 6.16304, 6.16828, 6.09455, 6.1168, 6.19367, 6.19009, 6.07731, 6.10978, 6.18549, 6.19598
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 0.446702, 0.427712, 0.383174, 0.374817, 0.452772, 0.420377, 0.389006, 0.383899, 0.459251, 0.436643, 0.359777, 0.363628, 0.476029, 0.444073, 0.368107, 0.357805
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 9.29832e-06, 9.05991e-06, 1.16825e-05, 1.74046e-05, 1.5974e-05, 1.54972e-05, 2.09808e-05, 2.21729e-05, 1.66893e-05, 2.26498e-05, 2.19345e-05, 2.00272e-05, 2.3365e-05, 2.43187e-05, 3.00407e-05, 3.88622e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000407219, 0.000281334, 0.000292063, 0.000441313, 0.000256538, 0.000279903, 0.000408649, 0.000336647, 0.000271082, 0.000384808, 0.000291824, 0.000256777, 0.00028348, 0.000335455, 0.00039649, 0.000364304
+
+outputting timing statistics to file "ex_tandem_tandem_timing_statistics_16_None.csv"...
+
+Elapsed run time = 66.8653 s

@@ -1,0 +1,52 @@
+Using MPI version 3.1, 8 processes
+-----------
+Initializing structure...
+Splitting into 8 chunks evenly
+time for choose_chunkdivision = 0.00458288 s
+Working in 3D dimensions.
+Computational cell is 11 x 11 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+time for set_epsilon = 4.49158 s
+time for set_conductivity = 0.421543 s
+time for set_conductivity = 0.427516 s
+time for set_conductivity = 0.432121 s
+time for set_conductivity = 0.431409 s
+time for set_conductivity = 0.43124 s
+time for set_conductivity = 0.431888 s
+-----------
+Memory usage:  17534061672
+Number of pixels:  48315301
+on time step 1 (time=0.00909091), 20.1242 s/step
+
+Field time usage:
+            time stepping: 2.29864 s +/- 0.0196764 s
+            communicating: 0.403255 s +/- 0.0196596 s
+     Fourier transforming: 8.82149e-06 s +/- 2.40116e-06 s
+          everything else: 0.000251412 s +/- 2.07168e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 2.30917, 2.30087, 2.25981, 2.28466, 2.30058, 2.32393, 2.29593, 2.31413
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 0.392682, 0.400983, 0.442059, 0.41721, 0.401338, 0.37792, 0.405933, 0.387915
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 5.00679e-06, 6.91414e-06, 7.39098e-06, 8.10623e-06, 9.29832e-06, 1.07288e-05, 1.09673e-05, 1.21593e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000242949, 0.000246763, 0.000230312, 0.000259876, 0.000242233, 0.000281811, 0.000279903, 0.000227451
+
+outputting timing statistics to file "ex_oled_oled_timing_statistics_8_None.csv"...
+
+Elapsed run time = 30.0674 s

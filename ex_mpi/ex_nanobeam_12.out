@@ -1,0 +1,77 @@
+Using MPI version 3.1, 12 processes
+-----------
+Initializing structure...
+Halving computational cell along direction x
+Halving computational cell along direction y
+Halving computational cell along direction z
+Splitting into 12 chunks by cost
+time for choose_chunkdivision = 0.0660574 s
+Working in 3D dimensions.
+Computational cell is 21 x 4.5 x 4.21667 with resolution 120
+     block, center = (0,0,0)
+          size (1e+20,0.5,0.22)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (16,16,16)
+     cylinder, center = (-10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.5654,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 41 objects not shown)...
+time for set_epsilon = 6.30232 s
+time for set_conductivity = 0.521784 s
+time for set_conductivity = 0.514899 s
+time for set_conductivity = 0.514966 s
+time for set_conductivity = 0.514855 s
+time for set_conductivity = 0.515391 s
+time for set_conductivity = 0.515822 s
+-----------
+estimated costs per process: 4957.06, 4973, 4997.54, 4997.54, 4957.16, 4990.77, 4980.65, 5014.42, 4997.54, 4997.54, 4997.54, 4997.54
+estimated cost mean = 4988.19, stddev = 17.6805
+Memory usage:  6202218312
+Number of pixels:  86141921
+on time step 1 (time=0.00416667), 59.3733 s/step
+
+Field time usage:
+            time stepping: 2.93054 s +/- 0.429219 s
+            communicating: 1.02419 s +/- 0.429425 s
+     Fourier transforming: 1.64906e-05 s +/- 6.07156e-06 s
+          everything else: 0.000297705 s +/- 3.02551e-05 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            time stepping: 3.40371, 3.47378, 2.88193, 2.87247, 2.16763, 3.31266, 2.15684, 3.33978, 2.86705, 2.89736, 2.90691, 2.88635
+          copying borders: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            communicating: 0.551688, 0.481672, 1.0738, 1.0818, 1.78747, 0.640186, 1.79764, 0.612979, 1.08685, 1.0581, 1.04863, 1.06941
+        outputting fields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+     Fourier transforming: 7.62939e-06, 7.86781e-06, 1.14441e-05, 1.33514e-05, 1.40667e-05, 1.88351e-05, 1.38283e-05, 1.97887e-05, 2.09808e-05, 1.93119e-05, 2.45571e-05, 2.6226e-05
+                      MPB: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        getting farfields: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+          everything else: 0.000366449, 0.000280619, 0.000276804, 0.00028801, 0.000280619, 0.000297546, 0.000283957, 0.000354767, 0.000297785, 0.000287056, 0.000278473, 0.00028038
+
+outputting timing statistics to file "ex_nanobeam_nanobeam_timing_statistics_12_None.csv"...
+
+Elapsed run time = 73.0519 s
