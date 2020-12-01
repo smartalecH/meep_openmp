@@ -1,0 +1,63 @@
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000602028 s
+Working in 3D dimensions.
+Computational cell is 14 x 6.5 x 7 with resolution 50
+     block, center = (-6,0,0)
+          size (2,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.4025,2.4025)
+     block, center = (0,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.71284,2.61034)
+subpixel-averaging is 23.752% done, 12.8408 s remaining
+subpixel-averaging is 46.3688% done, 4.62651 s remaining
+subpixel-averaging is 68.9855% done, 1.79838 s remaining
+subpixel-averaging is 91.6044% done, 0.366635 s remaining
+subpixel-averaging is 23.3571% done, 13.1256 s remaining
+subpixel-averaging is 45.6695% done, 4.75862 s remaining
+subpixel-averaging is 67.9799% done, 1.88419 s remaining
+subpixel-averaging is 90.2881% done, 0.430275 s remaining
+subpixel-averaging is 23.8672% done, 12.76 s remaining
+subpixel-averaging is 46.957% done, 4.51877 s remaining
+subpixel-averaging is 70.0447% done, 1.71075 s remaining
+subpixel-averaging is 93.4245% done, 0.281539 s remaining
+time for set_epsilon = 83.0005 s
+-----------
+estimated costs per process: 46937.4
+estimated cost mean = 46937.4, stddev = 0
+Memory usage:  6344520000
+Number of pixels:  79625000
+on time step 1 (time=0.01), 49.0922 s/step
+on time step 2 (time=0.02), 4.48927 s/step
+on time step 3 (time=0.03), 4.48842 s/step
+on time step 4 (time=0.04), 4.48813 s/step
+on time step 5 (time=0.05), 4.48796 s/step
+on time step 6 (time=0.06), 4.48795 s/step
+on time step 7 (time=0.07), 4.48838 s/step
+on time step 8 (time=0.08), 4.48738 s/step
+on time step 9 (time=0.09), 4.48773 s/step
+on time step 10 (time=0.1), 4.48834 s/step
+
+Field time usage:
+            time stepping: 43.001 s
+            communicating: 1.88031 s
+     Fourier transforming: 1.0428e-05 s
+          everything else: 0.000287896 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 43.001
+          copying borders: 0
+            communicating: 1.88031
+        outputting fields: 0
+     Fourier transforming: 1.0428e-05
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000287896
+
+outputting timing statistics to file "ex_liq_liq_timing_statistics_1_1.csv"...
+
+Elapsed run time = 178.6339 s

@@ -1,0 +1,88 @@
+-----------
+Initializing structure...
+Halving computational cell along direction x
+Halving computational cell along direction y
+Halving computational cell along direction z
+time for choose_chunkdivision = 0.00152297 s
+Working in 3D dimensions.
+Computational cell is 21 x 4.5 x 4.21667 with resolution 120
+     block, center = (0,0,0)
+          size (1e+20,0.5,0.22)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.5654,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 41 objects not shown)...
+subpixel-averaging is 77.271% done, 1.17669 s remaining
+subpixel-averaging is 70.7166% done, 1.6568 s remaining
+subpixel-averaging is 77.1005% done, 1.18926 s remaining
+subpixel-averaging is 70.1453% done, 1.70286 s remaining
+subpixel-averaging is 75.3698% done, 1.30905 s remaining
+subpixel-averaging is 69.6483% done, 1.74325 s remaining
+time for set_epsilon = 52.609 s
+time for set_conductivity = 6.01342 s
+time for set_conductivity = 6.01838 s
+time for set_conductivity = 6.02468 s
+time for set_conductivity = 6.01802 s
+time for set_conductivity = 6.0111 s
+time for set_conductivity = 6.00133 s
+lorentzian susceptibility: frequency=0.000905797, gamma=0
+lorentzian susceptibility: frequency=0.88125, gamma=0
+lorentzian susceptibility: frequency=3.31657, gamma=0
+-----------
+estimated costs per process: 60232.9
+estimated cost mean = 60232.9, stddev = 0
+Memory usage:  6274071288
+Number of pixels:  86141921
+on time step 1 (time=0.00416667), 81.6989 s/step
+on time step 3 (time=0.0125), 2.64327 s/step
+on time step 5 (time=0.0208333), 2.62986 s/step
+on time step 7 (time=0.0291667), 2.63161 s/step
+on time step 9 (time=0.0375), 2.62734 s/step
+
+Field time usage:
+            time stepping: 22.7444 s
+            communicating: 3.58976 s
+     Fourier transforming: 5.91483e-06 s
+          everything else: 0.000289579 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 22.7444
+          copying borders: 0
+            communicating: 3.58976
+        outputting fields: 0
+     Fourier transforming: 5.91483e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000289579
+
+outputting timing statistics to file "ex_nanobeam_nanobeam_timing_statistics_1_20.csv"...
+
+Elapsed run time = 298.8653 s

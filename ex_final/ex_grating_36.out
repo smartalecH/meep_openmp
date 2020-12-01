@@ -1,0 +1,125 @@
+-----------
+Initializing structure...
+Padding y to even number of grid points.
+Halving computational cell along direction y
+time for choose_chunkdivision = 0.00246769 s
+Working in 3D dimensions.
+Computational cell is 15.1 x 15.1 x 4.32 with resolution 50
+     cylinder, center = (0,0,0)
+          radius 6, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 5.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 4.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 4, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 3.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 3, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 2.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 2, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (0,0,0)
+          radius 1.5, height 0.22, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 10 objects not shown)...
+time for set_epsilon = 40.6654 s
+lorentzian susceptibility: frequency=9.89653, gamma=0
+lorentzian susceptibility: frequency=0.1, gamma=0
+lorentzian susceptibility: frequency=9.97083, gamma=0
+lorentzian susceptibility: frequency=0.000905797, gamma=0
+lorentzian susceptibility: frequency=0.88125, gamma=0
+lorentzian susceptibility: frequency=3.31657, gamma=0
+-----------
+estimated costs per process: 86577.9
+estimated cost mean = 86577.9, stddev = 0
+KPOINT: 1.5, 0, 0
+    near maximum in trace
+    iteration    1: trace = 3.561074589869017 (189.517% change)
+    iteration    2: trace = 0.5643913450204082 (145.277% change)
+    iteration    3: trace = 0.436335741934435 (25.5925% change)
+    iteration    4: trace = 0.4191244993908086 (4.02386% change)
+    iteration    5: trace = 0.4155451727485449 (0.857663% change)
+    iteration    6: trace = 0.4146652488310248 (0.211976% change)
+    iteration    7: trace = 0.414506653667558 (0.0382539% change)
+    iteration    8: trace = 0.4144627711554619 (0.0105872% change)
+    iteration    9: trace = 0.4144543959520267 (0.00202076% change)
+    iteration   10: trace = 0.4144530704853915 (0.000319811% change)
+    iteration   11: trace = 0.4144528828071554 (4.52834e-05% change)
+    iteration   12: trace = 0.4144528475648312 (8.50334e-06% change)
+    iteration   13: trace = 0.4144528415968356 (1.43997e-06% change)
+    iteration   14: trace = 0.4144528409862562 (1.47322e-07% change)
+    iteration   15: trace = 0.4144528409658303 (4.92841e-09% change)
+    iteration   16: trace = 0.414452840957873 (1.91995e-09% change)
+    iteration   17: trace = 0.4144528409525353 (1.28788e-09% change)
+    iteration   18: trace = 0.4144528409481787 (1.05118e-09% change)
+    iteration   19: trace = 0.4144528409442803 (9.40623e-10% change)
+    iteration   20: trace = 0.4144528409406162 (8.84074e-10% change)
+    iteration   21: trace = 0.4144528409370568 (8.58813e-10% change)
+    iteration   22: trace = 0.4144528409335089 (8.56054e-10% change)
+    iteration   23: trace = 0.4144528409298677 (8.78542e-10% change)
+    iteration   24: trace = 0.4144528409259752 (9.39189e-10% change)
+    iteration   25: trace = 0.4144528409215054 (1.07849e-09% change)
+    iteration   26: trace = 0.4144528409155641 (1.43354e-09% change)
+    iteration   27: trace = 0.4144528409046099 (2.64305e-09% change)
+    iteration   28: trace = 0.4144528409040891 (1.25648e-10% change)
+    iteration   29: trace = 0.4144528409039286 (3.87216e-11% change)
+MPB solved for frequency_1(1.5,0,0) = 0.64378 after 29 iters
+Newton step: group velocity v=0.235137, kmatch=1.50587
+    iteration    1: trace = 0.4162338366656736 (0.000888584% change)
+    iteration    2: trace = 0.4162336949462318 (3.4048e-05% change)
+    iteration    3: trace = 0.4162336655796434 (7.05531e-06% change)
+    iteration    4: trace = 0.4162336585173563 (1.69671e-06% change)
+    iteration    5: trace = 0.4162336577481952 (1.84791e-07% change)
+    iteration    6: trace = 0.4162336575258765 (5.3412e-08% change)
+    iteration    7: trace = 0.4162336574653409 (1.45437e-08% change)
+    iteration    8: trace = 0.4162336574556335 (2.3322e-09% change)
+    iteration    9: trace = 0.416233657453948 (4.04937e-10% change)
+    iteration   10: trace = 0.4162336574536131 (8.04593e-11% change)
+MPB solved for frequency_1(1.50587,0,0) = 0.645162 after 10 iters
+Newton step: group velocity v=0.235287, kmatch=1.50587
+    iteration    1: trace = 0.416233090531616 (6.19216e-11% change)
+MPB solved for frequency_1(1.50587,0,0) = 0.645161 after 1 iters
+Newton step: group velocity v=0.235286, kmatch=1.50587
+Memory usage:  12920642448
+Number of pixels:  61562700
+on time step 1 (time=0.01), 67.6855 s/step
+on time step 3 (time=0.03), 2.36504 s/step
+on time step 5 (time=0.05), 2.36077 s/step
+on time step 7 (time=0.07), 2.36076 s/step
+on time step 9 (time=0.09), 2.36044 s/step
+
+Field time usage:
+            time stepping: 18.7533 s
+            communicating: 4.8627 s
+     Fourier transforming: 9.56049e-06 s
+          everything else: 0.000300633 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 18.7533
+          copying borders: 0
+            communicating: 4.8627
+        outputting fields: 0
+     Fourier transforming: 9.56049e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000300633
+
+outputting timing statistics to file "ex_grating_grating_timing_statistics_1_36.csv"...
+
+Elapsed run time = 300.4970 s

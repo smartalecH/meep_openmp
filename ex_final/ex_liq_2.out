@@ -1,0 +1,55 @@
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000570026 s
+Working in 3D dimensions.
+Computational cell is 14 x 6.5 x 7 with resolution 50
+     block, center = (-6,0,0)
+          size (2,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.4025,2.4025)
+     block, center = (0,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.71284,2.61034)
+subpixel-averaging is 28.9471% done, 9.81844 s remaining
+subpixel-averaging is 57.1887% done, 2.99481 s remaining
+subpixel-averaging is 86.0638% done, 0.64773 s remaining
+subpixel-averaging is 28.8216% done, 9.87894 s remaining
+subpixel-averaging is 56.9399% done, 3.02537 s remaining
+subpixel-averaging is 85.6278% done, 0.671619 s remaining
+subpixel-averaging is 28.9409% done, 9.82185 s remaining
+subpixel-averaging is 57.2525% done, 2.98705 s remaining
+subpixel-averaging is 86.0803% done, 0.646831 s remaining
+time for set_epsilon = 69.0422 s
+-----------
+estimated costs per process: 46937.4
+estimated cost mean = 46937.4, stddev = 0
+Memory usage:  6344520000
+Number of pixels:  79625000
+on time step 1 (time=0.01), 47.0275 s/step
+on time step 3 (time=0.03), 2.38191 s/step
+on time step 5 (time=0.05), 2.38142 s/step
+on time step 7 (time=0.07), 2.38126 s/step
+on time step 9 (time=0.09), 2.38163 s/step
+
+Field time usage:
+            time stepping: 21.5912 s
+            communicating: 2.22297 s
+     Fourier transforming: 8.90857e-06 s
+          everything else: 0.000290952 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 21.5912
+          copying borders: 0
+            communicating: 2.22297
+        outputting fields: 0
+     Fourier transforming: 8.90857e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000290952
+
+outputting timing statistics to file "ex_liq_liq_timing_statistics_1_2.csv"...
+
+Elapsed run time = 140.7708 s

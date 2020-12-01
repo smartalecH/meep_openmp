@@ -1,0 +1,99 @@
+-----------
+Initializing structure...
+Halving computational cell along direction x
+Halving computational cell along direction y
+Halving computational cell along direction z
+time for choose_chunkdivision = 0.00152156 s
+Working in 3D dimensions.
+Computational cell is 21 x 4.5 x 4.21667 with resolution 120
+     block, center = (0,0,0)
+          size (1e+20,0.5,0.22)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (10.2854,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.8554,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (9.4254,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (8.9954,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     cylinder, center = (-8.5654,0,0)
+          radius 0.1204, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     ...(+ 41 objects not shown)...
+subpixel-averaging is 95.1595% done, 0.203481 s remaining
+subpixel-averaging is 88.9812% done, 0.495345 s remaining
+subpixel-averaging is 64.3371% done, 2.21737 s remaining
+subpixel-averaging is 55.6435% done, 3.18869 s remaining
+subpixel-averaging is 96.6039% done, 0.140623 s remaining
+subpixel-averaging is 88.8707% done, 0.500964 s remaining
+subpixel-averaging is 64.2476% done, 2.22595 s remaining
+subpixel-averaging is 58.9109% done, 2.79007 s remaining
+subpixel-averaging is 95.9916% done, 0.167038 s remaining
+subpixel-averaging is 88.323% done, 0.528846 s remaining
+subpixel-averaging is 64.2433% done, 2.22642 s remaining
+subpixel-averaging is 57.6822% done, 2.93471 s remaining
+time for set_epsilon = 66.1732 s
+time for set_conductivity = 6.01413 s
+time for set_conductivity = 6.02405 s
+time for set_conductivity = 6.01831 s
+time for set_conductivity = 6.01415 s
+time for set_conductivity = 6.00864 s
+time for set_conductivity = 6.00454 s
+lorentzian susceptibility: frequency=0.000905797, gamma=0
+lorentzian susceptibility: frequency=0.88125, gamma=0
+lorentzian susceptibility: frequency=3.31657, gamma=0
+-----------
+estimated costs per process: 60232.9
+estimated cost mean = 60232.9, stddev = 0
+Memory usage:  6274071288
+Number of pixels:  86141921
+on time step 1 (time=0.00416667), 88.9719 s/step
+on time step 2 (time=0.00833333), 7.30122 s/step
+on time step 3 (time=0.0125), 7.27789 s/step
+on time step 4 (time=0.0166667), 7.28513 s/step
+on time step 5 (time=0.0208333), 7.27793 s/step
+on time step 6 (time=0.025), 7.28235 s/step
+on time step 7 (time=0.0291667), 7.28583 s/step
+on time step 8 (time=0.0333333), 7.28186 s/step
+on time step 9 (time=0.0375), 7.27975 s/step
+on time step 10 (time=0.0416667), 7.28001 s/step
+
+Field time usage:
+            time stepping: 69.2317 s
+            communicating: 3.60007 s
+     Fourier transforming: 6.45174e-06 s
+          everything else: 0.000308406 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 69.2317
+          copying borders: 0
+            communicating: 3.60007
+        outputting fields: 0
+     Fourier transforming: 6.45174e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000308406
+
+outputting timing statistics to file "ex_nanobeam_nanobeam_timing_statistics_1_2.csv"...
+
+Elapsed run time = 366.8256 s

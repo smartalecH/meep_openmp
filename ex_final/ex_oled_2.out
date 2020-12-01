@@ -1,0 +1,71 @@
+-----------
+Initializing structure...
+time for choose_chunkdivision = 7.27191e-05 s
+Working in 3D dimensions.
+Computational cell is 11 x 11 x 2.4 with resolution 55
+     block, center = (0,0,0.55)
+          size (1e+20,1e+20,1.3)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.25,2.25,2.25)
+     block, center = (0,0,-0.3)
+          size (1e+20,1e+20,0.4)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (3.0625,3.0625,3.0625)
+     block, center = (0,0,-0.6)
+          size (1e+20,1e+20,0.2)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+subpixel-averaging is 41.4375% done, 5.65355 s remaining
+subpixel-averaging is 82.5518% done, 0.845665 s remaining
+subpixel-averaging is 96.1598% done, 0.159748 s remaining
+subpixel-averaging is 41.4447% done, 5.65167 s remaining
+subpixel-averaging is 82.9076% done, 0.824706 s remaining
+subpixel-averaging is 41.423% done, 5.6567 s remaining
+subpixel-averaging is 82.875% done, 0.826867 s remaining
+time for set_epsilon = 51.3502 s
+time for set_conductivity = 3.89724 s
+time for set_conductivity = 3.88457 s
+time for set_conductivity = 3.8842 s
+time for set_conductivity = 3.87484 s
+time for set_conductivity = 3.88049 s
+time for set_conductivity = 3.8801 s
+lorentzian susceptibility: frequency=2.80116, gamma=2.72777
+lorentzian susceptibility: frequency=1.45825, gamma=1.08966
+lorentzian susceptibility: frequency=1.24532, gamma=0.251645
+lorentzian susceptibility: frequency=0.130662, gamma=0.268583
+drude susceptibility: frequency=1e-10, gamma=0.0379081
+-----------
+Memory usage:  18500367912
+Number of pixels:  48315301
+on time step 1 (time=0.00909091), 46.4935 s/step
+on time step 2 (time=0.0181818), 5.99137 s/step
+on time step 3 (time=0.0272727), 5.97743 s/step
+on time step 4 (time=0.0363636), 5.97914 s/step
+on time step 5 (time=0.0454545), 5.97939 s/step
+on time step 6 (time=0.0545455), 5.97917 s/step
+on time step 7 (time=0.0636364), 5.97807 s/step
+on time step 8 (time=0.0727273), 5.9794 s/step
+on time step 9 (time=0.0818182), 5.97998 s/step
+on time step 10 (time=0.0909091), 5.98122 s/step
+
+Field time usage:
+            time stepping: 54.4952 s
+            communicating: 5.30777 s
+     Fourier transforming: 9.14559e-06 s
+          everything else: 0.000289517 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 54.4952
+          copying borders: 0
+            communicating: 5.30777
+        outputting fields: 0
+     Fourier transforming: 9.14559e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.000289517
+
+outputting timing statistics to file "ex_oled_oled_timing_statistics_1_2.csv"...
+
+Elapsed run time = 293.2609 s

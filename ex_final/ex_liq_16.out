@@ -1,0 +1,46 @@
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000572167 s
+Working in 3D dimensions.
+Computational cell is 14 x 6.5 x 7 with resolution 50
+     block, center = (-6,0,0)
+          size (2,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.4025,2.4025)
+     block, center = (0,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.4025,2.71284,2.61034)
+subpixel-averaging is 43.2037% done, 5.26395 s remaining
+subpixel-averaging is 48.4954% done, 4.24874 s remaining
+subpixel-averaging is 64.4445% done, 2.20717 s remaining
+time for set_epsilon = 36.3229 s
+-----------
+estimated costs per process: 46937.4
+estimated cost mean = 46937.4, stddev = 0
+Memory usage:  6344520000
+Number of pixels:  79625000
+on time step 1 (time=0.01), 45.1451 s/step
+on time step 9 (time=0.09), 0.509827 s/step
+
+Field time usage:
+            time stepping: 2.84142 s
+            communicating: 2.25604 s
+     Fourier transforming: 7.30949e-06 s
+          everything else: 0.00025703 s
+
+
+Field time usage for all processes:
+        connecting chunks: 0
+            time stepping: 2.84142
+          copying borders: 0
+            communicating: 2.25604
+        outputting fields: 0
+     Fourier transforming: 7.30949e-06
+                      MPB: 0
+        getting farfields: 0
+          everything else: 0.00025703
+
+outputting timing statistics to file "ex_liq_liq_timing_statistics_1_16.csv"...
+
+Elapsed run time = 86.9643 s
